@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript; publication identifiers are not yet assigned."
+title: "Query-Budget Effects in Dense Full-Image Cell Instance Segmentation: A Prediction-Level Analysis on LIVECell"
+authors:
+  - family-names: Wang
+    given-names: Baohua
+  - family-names: Yu
+    given-names: Shengbin
+  - family-names: Ma
+    given-names: Yunlong
+  - family-names: Zhang
+    given-names: Jian
+license: Apache-2.0

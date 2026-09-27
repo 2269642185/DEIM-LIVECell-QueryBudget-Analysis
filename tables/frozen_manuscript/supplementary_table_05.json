@@ -1,0 +1,6 @@
+{
+  "source": "supplementary.tex",
+  "table_order": 5,
+  "content_type": "exact LaTeX tabular transcription; no recalculation",
+  "tabular": "\\begin{tabular}{llrr}\n\\toprule\n$N_{GT}$/image & Comparison & $\\Delta$ recall & 95\\% percentile CI\\\\\n\\midrule\n$\\leq300$ & Q400--Q300 & 0.0153 & [0.0105, 0.0198]\\\\\n$\\leq300$ & Q500--Q300 & 0.0236 & [0.0186, 0.0284]\\\\\n$\\leq300$ & Q600--Q300 & 0.0118 & [0.0062, 0.0171]\\\\\n\\midrule\n301--500 & Q400--Q300 & 0.0903 & [0.0818, 0.0986]\\\\\n301--500 & Q500--Q300 & 0.1353 & [0.1224, 0.1478]\\\\\n301--500 & Q600--Q300 & 0.1437 & [0.1285, 0.1587]\\\\\n\\midrule\n$>500$ & Q400--Q300 & 0.0801 & [0.0739, 0.0870]\\\\\n$>500$ & Q500--Q300 & 0.1501 & [0.1397, 0.1614]\\\\\n$>500$ & Q600--Q300 & 0.2067 & [0.1929, 0.2212]\\\\\n\\bottomrule\n\\end{tabular}"
+}

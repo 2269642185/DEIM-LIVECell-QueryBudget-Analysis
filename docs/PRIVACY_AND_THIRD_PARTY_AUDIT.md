@@ -1,0 +1,9 @@
+# Public candidate privacy and third-party audit
+
+PASS — static pattern scan plus review of script headers/imports, path arguments, configuration comments, provenance records and PDF metadata. Patterns covered private absolute paths, numeric IPv4 addresses, known private host/repository markers, email addresses, private keys, common token formats and credential-bearing URLs. PDF visible text, metadata and decompressed objects were included. No matches remain. This documents the checks performed, not a guarantee of legal ownership or every possible secret format.
+
+No raw LIVECell image, annotation file, model checkpoint or prediction-cache payload is included. Dataset image IDs and derived counts are research identifiers, not personal identifiers. No unrelated personal emails or student-account identifiers are needed in this archive.
+
+Study scripts implement project-specific analyses or import external libraries; no bundled third-party evaluation-library source was found. No complete DEIM upstream code or MDPI template/logo file is included. DEIM-derived configuration records and the recovery diff are retained with the original Apache-2.0 license and explicit modification notices. The upstream dependency-list copy was excluded; study environment records supply the needed dependency information. The unavailable external alignment helper is not redistributed.
+
+Seven input files were excluded or superseded: one upstream requirements copy, one internal editorial QA note, and five prior packaging metadata files. No input data/weight/cache payload needed deletion because none was in the candidate. Developer comments were removed from YAML files and parsed values were verified unchanged. The authors have now selected Apache-2.0 for author-owned code/configuration/documentation; third-party terms are retained.

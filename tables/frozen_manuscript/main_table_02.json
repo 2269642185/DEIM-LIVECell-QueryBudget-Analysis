@@ -1,0 +1,6 @@
+{
+  "source": "main.tex",
+  "table_order": 2,
+  "content_type": "exact LaTeX tabular transcription; no recalculation",
+  "tabular": "\\begin{tabular}{lccc}\n\\toprule\nBackbone & Q300 & Q500 & $\\Delta$ AP$_{50}$\\\\\n\\midrule\nR18 & 0.2541 / 0.4760 & 0.3034 / 0.5802 & +0.1043\\\\\nR50 & 0.2594 / 0.4936 & 0.3133 / 0.6165 & +0.1228\\\\\n\\midrule\n\\multicolumn{4}{l}{Backbone $\\Delta$ AP$_{50}$: +0.0177 at Q300; +0.0363 at Q500.}\\\\\n\\bottomrule\n\\end{tabular}"
+}

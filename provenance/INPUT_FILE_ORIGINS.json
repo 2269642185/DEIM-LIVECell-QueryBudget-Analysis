@@ -1,0 +1,898 @@
+[
+  {
+    "archive_path": "configs/r18_records/q300_launch.yml",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/configs/q300_launch.yml",
+    "source_sha256": "547d2955e68cfcfdbb4645ee8f72d32b844dfa8240d4bc22eebaede84efb70b8",
+    "archive_sha256": "547d2955e68cfcfdbb4645ee8f72d32b844dfa8240d4bc22eebaede84efb70b8",
+    "type": "record",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "configs/r18_records/q300_logged_cfg.json",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/configs/q300_logged_cfg.json",
+    "source_sha256": "66de69d294216659f10d25868c0c8e7af342d71147e08f7e825e822ee2e85532",
+    "archive_sha256": "66de69d294216659f10d25868c0c8e7af342d71147e08f7e825e822ee2e85532",
+    "type": "record",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "configs/r18_records/q300_resolved_MISSING.txt",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/configs/q300_resolved_MISSING.txt",
+    "source_sha256": "c8b8cae7e024ba2b049d0f33d6ff825fad039802e7fb5d26d56746c0576eb0f0",
+    "archive_sha256": "c8b8cae7e024ba2b049d0f33d6ff825fad039802e7fb5d26d56746c0576eb0f0",
+    "type": "record",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "configs/r18_records/q400_launch.yml",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/configs/q400_launch.yml",
+    "source_sha256": "b9d7479984e425422a9521edbe9aec67c359a5648bc373365c1ab5147552ab7c",
+    "archive_sha256": "f7275f839b628a84d384534243fc8a79acd0ae3e9efb9240a77434ddbaa6fe1a",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/r18_records/q400_logged_cfg.json",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/configs/q400_logged_cfg.json",
+    "source_sha256": "5d55604b1083b5ba5934bbfaa3b9fc3c27b19c8e98f6be70615208082f9e0bc0",
+    "archive_sha256": "5d55604b1083b5ba5934bbfaa3b9fc3c27b19c8e98f6be70615208082f9e0bc0",
+    "type": "record",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "configs/r18_records/q400_resolved_MISSING.txt",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/configs/q400_resolved_MISSING.txt",
+    "source_sha256": "9c50465520793b59b318a85358466a7c86bff6f03a21ecc7a409c92f48a3992b",
+    "archive_sha256": "9c50465520793b59b318a85358466a7c86bff6f03a21ecc7a409c92f48a3992b",
+    "type": "record",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "configs/r18_records/q500_launch.yml",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/configs/q500_launch.yml",
+    "source_sha256": "6f2444519faf866e0d80990f81c401744b0ee8c77219d8b24a6fb8cacd34c551",
+    "archive_sha256": "560a6df8cdace47ca85bf3ed37fe6ca9f894a4655191ad3afe0bec028d26a67a",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/r18_records/q500_logged_cfg.json",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/configs/q500_logged_cfg.json",
+    "source_sha256": "1ccb4f63e5d8d7c08ded3bb7d261d7868f214a313a636832ec8d6cee021e4180",
+    "archive_sha256": "1ccb4f63e5d8d7c08ded3bb7d261d7868f214a313a636832ec8d6cee021e4180",
+    "type": "record",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "configs/r18_records/q500_resolved_MISSING.txt",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/configs/q500_resolved_MISSING.txt",
+    "source_sha256": "25e177572185366d991da60f31038ce540f8b50753ed51d2bc107ad1c88e47dc",
+    "archive_sha256": "25e177572185366d991da60f31038ce540f8b50753ed51d2bc107ad1c88e47dc",
+    "type": "record",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "configs/r18_records/q600_launch.yml",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/configs/q600_launch.yml",
+    "source_sha256": "36b842f3f34088ac7e28e45adf738c9ca6008aa7d6135a4df02306772c65cae5",
+    "archive_sha256": "d5bf68f750f327f8ee8e2cbb48473962b627be63daeb7f41f84f6f59d91a2147",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/r18_records/q600_logged_cfg.json",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/configs/q600_logged_cfg.json",
+    "source_sha256": "39d6cb66521c1651006bf1dfbc043faaebc453ec204ac138b1fb69820121785b",
+    "archive_sha256": "39d6cb66521c1651006bf1dfbc043faaebc453ec204ac138b1fb69820121785b",
+    "type": "record",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "configs/r18_records/q600_resolved_MISSING.txt",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/configs/q600_resolved_MISSING.txt",
+    "source_sha256": "cdb88900db39b5f52cb0f8a679d5ceeda4670104dde762032b6b2e2766572356",
+    "archive_sha256": "cdb88900db39b5f52cb0f8a679d5ceeda4670104dde762032b6b2e2766572356",
+    "type": "record",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "configs/launch_records/q300_launch.txt",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/launch/q300_launch.txt",
+    "source_sha256": "b63b8d71989e276a903f1cdac9943decef71526a78baf3ca811059a34ae838cc",
+    "archive_sha256": "b7120df872c73559d90c548249217c4e85580ba4f7b93892bc446e4060b735f2",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/launch_records/q400_launch.txt",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/launch/q400_launch.txt",
+    "source_sha256": "3478a38e118eb4ed9023988ee0328d19e9721fed027d7eaf8ff357da83af4528",
+    "archive_sha256": "d33731307558020878f99aa31270875085eef1aaa1f1ac59873caaac6a9278c5",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/launch_records/q500_launch.txt",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/launch/q500_launch.txt",
+    "source_sha256": "9b740a7276093ee9bc5f02ecf7968bd8722961e4d9b2460cc96e79a0a7be3298",
+    "archive_sha256": "332beff1b12eb8d9afca6ded88fbcb8f9e416102dddf02ba4671af1926f778bf",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/launch_records/q600_launch.txt",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/launch/q600_launch.txt",
+    "source_sha256": "a871684dc7469de5804b6106c4b768d049bf5a5a44fe2ab2694b9a0eb3f34a9d",
+    "archive_sha256": "260612a9786bc584ebecf676841c789539bef87d16067d9d09ecb5acdf65aa19",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/r50_records/exp_r50_query300_36e_clean.yml",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/R50_Q300_recovery_fixed2_20260921/exp_r50_query300_36e_clean.yml",
+    "source_sha256": "115ec1674638a817b109ba1f727974813a89e7012b0dc51565080c29ee232b58",
+    "archive_sha256": "ba8fce687f28fc5d9318a43fb6b7a567ea8729ad1d8f2be3c6ad113dcf996d87",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/r50_records/exp_r50_query500_36e.yml",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/R50_Q300_recovery_fixed2_20260921/exp_r50_query500_36e.yml",
+    "source_sha256": "7c59568fab3a2b4f96e52c17378044236bb722583e3406d021e5528bffacfd7e",
+    "archive_sha256": "173817b9d3dfb72a82dd618d7855aaa732e795093135007e18a650a9eb5a7cb4",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "manifests/primary_r18_prediction_manifest.json",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q300_Q500_terminal_20260913/manifest.json",
+    "source_sha256": "b875a97aa8ce8cee694f457774c77b0d2a8685319985788813033748577210e5",
+    "archive_sha256": "3c435c4221e390305f6b65da634712f702d6c304118a4fa4ac60662ec3aaf045",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "manifests/four_budget_r18_prediction_manifest.json",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/manifest.json",
+    "source_sha256": "6620cdd07c86db83725ff2f8e696181475d9421adc480e29e093f412552cdb53",
+    "archive_sha256": "2130193016d24e362a9fa71d3bb245320c086c1c268046f530f026d0e78c6a6b",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "manifests/r50_prediction_manifest.json",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/R50_Q300_recovery_fixed2_20260921/prediction_audit/manifest.json",
+    "source_sha256": "cda1d47df5274a81551389877488cfb302b558f2ef05979c207c830b6816e9fa",
+    "archive_sha256": "8b80e044fd3564d066336b8b1c127e09e2e0ad9c343814fef9739bb6f8fe3a95",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/replay_tree/deim_sdf/exp_binary_mask_36e.yml",
+    "source_id": "<MODEL_PROJECT>/configs/deim_sdf/exp_binary_mask_36e.yml",
+    "source_sha256": "547d2955e68cfcfdbb4645ee8f72d32b844dfa8240d4bc22eebaede84efb70b8",
+    "archive_sha256": "547d2955e68cfcfdbb4645ee8f72d32b844dfa8240d4bc22eebaede84efb70b8",
+    "type": "record",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "configs/replay_tree/deim_rtdetrv2/rtdetrv2_r18vd_120e_coco.yml",
+    "source_id": "<MODEL_PROJECT>/configs/deim_rtdetrv2/rtdetrv2_r18vd_120e_coco.yml",
+    "source_sha256": "e9936fd5c161d01ed71fa81929f859de35a1273006c4286c71351689eff1e87a",
+    "archive_sha256": "f14383319aa4438f6f70f8c7a62c28374b5cab2ce90362b06df4b636d561f5fa",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/replay_tree/dataset/coco_detection.yml",
+    "source_id": "<MODEL_PROJECT>/configs/dataset/coco_detection.yml",
+    "source_sha256": "d9096894206d218bc0e4a33461d05aec0284c9fb19c037b35181c91ad76fe4ef",
+    "archive_sha256": "7bc95330e2e373385a191dfc28c87af02bd3083203d0bd133c189a65848f8a2d",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/replay_tree/runtime.yml",
+    "source_id": "<MODEL_PROJECT>/configs/runtime.yml",
+    "source_sha256": "57837e503d8faadabfa56992dd7d801a8e373c82a99a1124d34ff37ccf86ea74",
+    "archive_sha256": "7c40febe937173aa5d300fb3f3e3636133a312478e47022ec63947962dc45dba",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/replay_tree/base/dataloader.yml",
+    "source_id": "<MODEL_PROJECT>/configs/base/dataloader.yml",
+    "source_sha256": "8d834a744e5bf40accc37c9427eb22f3146ffc009f05f80d3f9cb124d20076a4",
+    "archive_sha256": "0802fe358f36ab31cfd9d639b8f71c2919020ca77115c7d7edc4998d5cc45db0",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/replay_tree/base/rt_optimizer.yml",
+    "source_id": "<MODEL_PROJECT>/configs/base/rt_optimizer.yml",
+    "source_sha256": "9ca04c4078afccda200f06df38708c074ed70c52814995bbdda179bcbeec9b26",
+    "archive_sha256": "02033fd95bde74f6cf7f131a3f01546c177e4a4570c40f0865c1387efb0fcc9c",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/replay_tree/base/rtdetrv2_r50vd.yml",
+    "source_id": "<MODEL_PROJECT>/configs/base/rtdetrv2_r50vd.yml",
+    "source_sha256": "64fa4fac64c93aa910bea163702d119cb21cf28f1815953a6ed694cd1670c009",
+    "archive_sha256": "ae4f97321f2fab8d06752446b643cae753f63f195a50879edfd789f7859d87a8",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/replay_tree/base/rt_deim.yml",
+    "source_id": "<MODEL_PROJECT>/configs/base/rt_deim.yml",
+    "source_sha256": "5bc88afada2dbd985c97c0e4f338cbbef9f22605bb289646bd72a4ff3f51655a",
+    "archive_sha256": "af6cfe42837645d627cae103c73e495a6bb3ec00a34ad8178df86876725bba57",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/replay_tree/deim_sdf/exp_query500_36e.yml",
+    "source_id": "<MODEL_PROJECT>/configs/deim_sdf/exp_query500_36e.yml",
+    "source_sha256": "6f2444519faf866e0d80990f81c401744b0ee8c77219d8b24a6fb8cacd34c551",
+    "archive_sha256": "560a6df8cdace47ca85bf3ed37fe6ca9f894a4655191ad3afe0bec028d26a67a",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/replay_tree/deim_sdf/exp_p2_query400_36e.yml",
+    "source_id": "<PROJECT_ROOT>/research/experiments/config_snapshots/query_curve_20260913/exp_p2_query400_36e.yml",
+    "source_sha256": "b9d7479984e425422a9521edbe9aec67c359a5648bc373365c1ab5147552ab7c",
+    "archive_sha256": "f7275f839b628a84d384534243fc8a79acd0ae3e9efb9240a77434ddbaa6fe1a",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/replay_tree/deim_sdf/exp_p2_query600_36e.yml",
+    "source_id": "<PROJECT_ROOT>/research/experiments/config_snapshots/query_curve_20260913/exp_p2_query600_36e.yml",
+    "source_sha256": "36b842f3f34088ac7e28e45adf738c9ca6008aa7d6135a4df02306772c65cae5",
+    "archive_sha256": "d5bf68f750f327f8ee8e2cbb48473962b627be63daeb7f41f84f6f59d91a2147",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/replay_tree/deim_sdf/exp_r50_query300_36e_clean.yml",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/R50_Q300_recovery_fixed2_20260921/exp_r50_query300_36e_clean.yml",
+    "source_sha256": "115ec1674638a817b109ba1f727974813a89e7012b0dc51565080c29ee232b58",
+    "archive_sha256": "ba8fce687f28fc5d9318a43fb6b7a567ea8729ad1d8f2be3c6ad113dcf996d87",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/replay_tree/deim_sdf/exp_r50_query500_36e.yml",
+    "source_id": "<MODEL_PROJECT>/configs/deim_sdf/exp_r50_query500_36e.yml",
+    "source_sha256": "7c59568fab3a2b4f96e52c17378044236bb722583e3406d021e5528bffacfd7e",
+    "archive_sha256": "173817b9d3dfb72a82dd618d7855aaa732e795093135007e18a650a9eb5a7cb4",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "configs/replay_tree/deim_rtdetrv2/rtdetrv2_r50vd_6x_coco.yml",
+    "source_id": "<MODEL_PROJECT>/configs/deim_rtdetrv2/rtdetrv2_r50vd_6x_coco.yml",
+    "source_sha256": "5353d0bcf7661148ac9c09de170f0cd626458a71ae3c7f4b08613a2245d93169",
+    "archive_sha256": "cab99046be959b503dbf7083e882bb9456fd3fc61bd2b7bab967d3efed800739",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "tables/primary_r18/budget_per_image.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q300_Q500_terminal_20260913/budget_per_image.csv",
+    "source_sha256": "76c0d85c4b2ff3611bb4eab27414b4b315cc9770d68bae8b635ece654714cf26",
+    "archive_sha256": "76c0d85c4b2ff3611bb4eab27414b4b315cc9770d68bae8b635ece654714cf26",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/primary_r18/budget_summary.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q300_Q500_terminal_20260913/budget_summary.csv",
+    "source_sha256": "18ca756eadc63b7b9dba9c1a0ea5ab0993099f3fea9d53c28331ccb5d03b1096",
+    "archive_sha256": "18ca756eadc63b7b9dba9c1a0ea5ab0993099f3fea9d53c28331ccb5d03b1096",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/primary_r18/density_differences.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q300_Q500_terminal_20260913/density_differences.csv",
+    "source_sha256": "09d65a48ca298fed411a77ab0ad1c5a1253cd7320728838ae86ae1df46538aee",
+    "archive_sha256": "09d65a48ca298fed411a77ab0ad1c5a1253cd7320728838ae86ae1df46538aee",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/primary_r18/density_summary.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q300_Q500_terminal_20260913/density_summary.csv",
+    "source_sha256": "b34ef48318b322e536c48429b2b349e2e0a3237b5e1caa8533a9af5089f821af",
+    "archive_sha256": "b34ef48318b322e536c48429b2b349e2e0a3237b5e1caa8533a9af5089f821af",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/primary_r18/paired_bootstrap.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q300_Q500_terminal_20260913/paired_bootstrap.csv",
+    "source_sha256": "9fd90ae72bdafe5f4d191dca2c0eabcad2bbe77839db067e7a01506bc1645a96",
+    "archive_sha256": "9fd90ae72bdafe5f4d191dca2c0eabcad2bbe77839db067e7a01506bc1645a96",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/primary_r18/per_image.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q300_Q500_terminal_20260913/per_image.csv",
+    "source_sha256": "75775ed9cb41772c7ccfcea6738cc38d0a2ef2a9bf5f7f232a7bb5581257eb52",
+    "archive_sha256": "75775ed9cb41772c7ccfcea6738cc38d0a2ef2a9bf5f7f232a7bb5581257eb52",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/primary_r18/reproduction.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q300_Q500_terminal_20260913/reproduction.csv",
+    "source_sha256": "16aeb4547fee344e155e939eabc70e9da24c451e102a472e178d745b1a9bbe60",
+    "archive_sha256": "16aeb4547fee344e155e939eabc70e9da24c451e102a472e178d745b1a9bbe60",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/primary_r18/threshold_metrics.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q300_Q500_terminal_20260913/threshold_metrics.csv",
+    "source_sha256": "54ae5a7dc690b13e0a6d5c58c21db1c36dc79c087845e55d47cf0d808d8f16e2",
+    "archive_sha256": "54ae5a7dc690b13e0a6d5c58c21db1c36dc79c087845e55d47cf0d808d8f16e2",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_r18/budget_per_image.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/budget_per_image.csv",
+    "source_sha256": "281ee39fa2da239b067309aa1e2d409527b1c2b2a259e3d222eb06d557a925d8",
+    "archive_sha256": "281ee39fa2da239b067309aa1e2d409527b1c2b2a259e3d222eb06d557a925d8",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_r18/budget_summary.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/budget_summary.csv",
+    "source_sha256": "ffad6451f560ea0b2099c1750f42d5fffb66dd82fee026d74e7db883fd317d74",
+    "archive_sha256": "ffad6451f560ea0b2099c1750f42d5fffb66dd82fee026d74e7db883fd317d74",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_r18/candidate_coverage.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/candidate_coverage.csv",
+    "source_sha256": "7ad197e087a111a8ddc67fc3449ee7481966775bac272ec2e5e827aae68c8931",
+    "archive_sha256": "7ad197e087a111a8ddc67fc3449ee7481966775bac272ec2e5e827aae68c8931",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_r18/density_differences.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/density_differences.csv",
+    "source_sha256": "09d65a48ca298fed411a77ab0ad1c5a1253cd7320728838ae86ae1df46538aee",
+    "archive_sha256": "09d65a48ca298fed411a77ab0ad1c5a1253cd7320728838ae86ae1df46538aee",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_r18/density_summary.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/density_summary.csv",
+    "source_sha256": "40cc26459506620898486c708442e985d1e3992e697e7248f9a97a52171d543a",
+    "archive_sha256": "40cc26459506620898486c708442e985d1e3992e697e7248f9a97a52171d543a",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_r18/paired_bootstrap.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/paired_bootstrap.csv",
+    "source_sha256": "9fd90ae72bdafe5f4d191dca2c0eabcad2bbe77839db067e7a01506bc1645a96",
+    "archive_sha256": "9fd90ae72bdafe5f4d191dca2c0eabcad2bbe77839db067e7a01506bc1645a96",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_r18/paired_gt_summary.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/paired_gt_summary.csv",
+    "source_sha256": "4bc44456cdb576add7be709353b12df47a7d9b32f78bfce2d52d35b89eef3158",
+    "archive_sha256": "4bc44456cdb576add7be709353b12df47a7d9b32f78bfce2d52d35b89eef3158",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_r18/per_image.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/per_image.csv",
+    "source_sha256": "0ad66e9c8d3136715101cb8a89dde02e09bd39511f82d08fd7057bd2f2daf5c3",
+    "archive_sha256": "0ad66e9c8d3136715101cb8a89dde02e09bd39511f82d08fd7057bd2f2daf5c3",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_r18/query_curve_density_metrics.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/query_curve_density_metrics.csv",
+    "source_sha256": "2dc6b105cce8546c01200cb39676467f2928475696c772e55d9206f7ae3b7c61",
+    "archive_sha256": "2dc6b105cce8546c01200cb39676467f2928475696c772e55d9206f7ae3b7c61",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_r18/query_curve_paired_image_bootstrap.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/query_curve_paired_image_bootstrap.csv",
+    "source_sha256": "935a715d65667ca3007dac07d69dcaef98697a9e16c29813d873de0e9aa8c6b0",
+    "archive_sha256": "935a715d65667ca3007dac07d69dcaef98697a9e16c29813d873de0e9aa8c6b0",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_r18/query_curve_terminal_metrics.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/query_curve_terminal_metrics.csv",
+    "source_sha256": "97daae27c02b2e83bffe2c430c1402a8cfc049324daa822c8504bc841b2ce857",
+    "archive_sha256": "97daae27c02b2e83bffe2c430c1402a8cfc049324daa822c8504bc841b2ce857",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_r18/reproduction.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/reproduction.csv",
+    "source_sha256": "9ab4948cd3076657d24c606b1a9ee0df31cbf33e9ab4a451e7c6b82d39dc8098",
+    "archive_sha256": "9ab4948cd3076657d24c606b1a9ee0df31cbf33e9ab4a451e7c6b82d39dc8098",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_r18/threshold_metrics.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/results/threshold_metrics.csv",
+    "source_sha256": "a8dbcd2a0c859b7d2c955e61478059662b9567194080babc9162eecb379ca271",
+    "archive_sha256": "a8dbcd2a0c859b7d2c955e61478059662b9567194080babc9162eecb379ca271",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/r50/candidate_coverage.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/R50_Q300_recovery_fixed2_20260921/prediction_audit/results/candidate_coverage.csv",
+    "source_sha256": "e04a58c94ac09f3e2cda6ab51233a7f430b5a8c481dc126ab13748b8bb71ec9f",
+    "archive_sha256": "ad54361de82797c8d3b1ea9892bfbfa8b879f21c29142ff8b39941deadcbea1a",
+    "type": "result table",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "tables/r50/density_summary.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/R50_Q300_recovery_fixed2_20260921/prediction_audit/results/density_summary.csv",
+    "source_sha256": "2705c0b5243a3a38e993ae921fedf2aa8087160b9e46a8acad07920cad9e817f",
+    "archive_sha256": "405ae2710b1d2b049c62981a21b4a414687566e9ff3b2d5e03db76066269ecb6",
+    "type": "result table",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "tables/r50/overall.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/R50_Q300_recovery_fixed2_20260921/prediction_audit/results/overall.csv",
+    "source_sha256": "41c5fda0483ee9efec7bdc69850497876be3aacae0d6146fb9bdb6445d6d052c",
+    "archive_sha256": "6ea650ba5fbc1c541aab66da42721c650ab90574a2c2b360e360bab3490ff479",
+    "type": "result table",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "tables/r50/paired_gt_summary.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/R50_Q300_recovery_fixed2_20260921/prediction_audit/results/paired_gt_summary.csv",
+    "source_sha256": "26ae8cb0f98885a5f7da5d40927f382d1958d59ce95b4db7b25f1ec306e51c8f",
+    "archive_sha256": "64a905277b0a3e99b56a4ec4e7f48c55f6af3832f554441ddfd8e34da38b0307",
+    "type": "result table",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "tables/r50/paired_image_bootstrap.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/R50_Q300_recovery_fixed2_20260921/prediction_audit/results/paired_image_bootstrap.csv",
+    "source_sha256": "a16cb2254da5be8b0825ab069c4daae2c4bec3f14172c1a5806dd010b56496fa",
+    "archive_sha256": "71b777689f80cbd6f4c62dccc7b680fc357ac0c3edc8f3d762c66b8c018d7696",
+    "type": "result table",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "tables/r50/per_image.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/R50_Q300_recovery_fixed2_20260921/prediction_audit/results/per_image.csv",
+    "source_sha256": "e268d0d68bc77043b7e4fa3f4f598727fbdfb2c14f804a8b5b3ffcdd37b26ace",
+    "archive_sha256": "b4a30f6246bc92fed3a2498e88990f321e2842db1ddd57d44d046db38917c202",
+    "type": "result table",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "tables/r50/reproduction.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/R50_Q300_recovery_fixed2_20260921/prediction_audit/results/reproduction.csv",
+    "source_sha256": "a6047df32375f60b0308866b87aabeda42b0c63cd40385df764c54132115d8cc",
+    "archive_sha256": "fea1268476e40a2196c09fd5916686012a71a5340f899da76fb318e4bbfec2ce",
+    "type": "result table",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "tables/r50/threshold_metrics.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/R50_Q300_recovery_fixed2_20260921/prediction_audit/results/threshold_metrics.csv",
+    "source_sha256": "b191602438334e0653275155da35d30819c37466b3d17c057b81ae96ab8e3778",
+    "archive_sha256": "68413e1fc7c2e4e51b590156ed0291323af5d914144d8062d12ff9c68d8fcf04",
+    "type": "result table",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "tables/four_budget_extended/four_budget_stratified_bootstrap.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/analysis/four_budget_stratified_bootstrap.csv",
+    "source_sha256": "17e97739a4f76185f6abdca1b7e452c2620842da85ff20b7f6612c25c9ef6aae",
+    "archive_sha256": "17e97739a4f76185f6abdca1b7e452c2620842da85ff20b7f6612c25c9ef6aae",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_extended/four_budget_stratified_primary.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/analysis/four_budget_stratified_primary.csv",
+    "source_sha256": "152a2f34e91d550911f101a19489abfbe9f42e6aab417490b6bb3bb455a14708",
+    "archive_sha256": "152a2f34e91d550911f101a19489abfbe9f42e6aab417490b6bb3bb455a14708",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_extended/four_budget_stratified_publication_table.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/analysis/four_budget_stratified_publication_table.csv",
+    "source_sha256": "991a57502247c6eeca8c870f83c6b338e68a0445dfd6b85093540277c3efda59",
+    "archive_sha256": "991a57502247c6eeca8c870f83c6b338e68a0445dfd6b85093540277c3efda59",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_extended/four_budget_threshold_scan.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/analysis/four_budget_threshold_scan.csv",
+    "source_sha256": "38a101461cf9b8a02ddf7ba83ddab096304160689eddaa48cf4cb3307fe8e783",
+    "archive_sha256": "38a101461cf9b8a02ddf7ba83ddab096304160689eddaa48cf4cb3307fe8e783",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/four_budget_extended/query_budget_exposure.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/analysis/query_budget_exposure.csv",
+    "source_sha256": "798eebaf8976aff99e2c3d6b3764204b9e54c562565d5a38c4766d051aa19713",
+    "archive_sha256": "798eebaf8976aff99e2c3d6b3764204b9e54c562565d5a38c4766d051aa19713",
+    "type": "result table",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "tables/engineering/query_compute_benchmark.json",
+    "source_id": "<PROJECT_ROOT>/research/experiments/compute/query_budget_20260916/results/query_compute_benchmark.json",
+    "source_sha256": "76eeaca98f2e7b3145ee1a927ecf0ec38c3408f460da26b4b6d00a144c7a38bf",
+    "archive_sha256": "c8d5e5bf84ee4eb40feb924bdf06b8e1a6de0c609f37f71c31d62e15d8b0a59a",
+    "type": "result table",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "tables/engineering/query_compute_benchmark.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/compute/query_budget_20260916/results/query_compute_benchmark.csv",
+    "source_sha256": "89befc19cb2a227d39846445f357215646ca9cf9a43ccac41daa22d63b04de51",
+    "archive_sha256": "e6b54789c36c701676a044dc6009856176a217ce00845df3a9f3a9f214166338",
+    "type": "result table",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "audit/four_budget_protocol_audit.md",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/audit/four_budget_protocol_audit.md",
+    "source_sha256": "e3b474080be0974a59cf8b3ae53941ddb3123a8773f8699cff04a8b735da6872",
+    "archive_sha256": "49509857518bb3210519d2fe175d32a6901d416358e7354fcc462dbda054a346",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "audit/four_budget_protocol_criteria.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/audit/four_budget_protocol_criteria.csv",
+    "source_sha256": "602a6ab1e09fb1f8b53ccb469e899ebfebe733f6adf305a8dff896702fd2a410",
+    "archive_sha256": "602a6ab1e09fb1f8b53ccb469e899ebfebe733f6adf305a8dff896702fd2a410",
+    "type": "record",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "audit/four_budget_runs.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/audit/four_budget_runs.csv",
+    "source_sha256": "3a57a1852b0ab3fd8584227e135806ca861e1a6320b7acaefcb2ffdf0e5eb3bf",
+    "archive_sha256": "6cd8daf180f1e41c6c198d071c9804632c4c85c0be990092a268425d2b4a7c62",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "audit/four_budget_config_diff.json",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/audit/four_budget_config_diff.json",
+    "source_sha256": "1063d10dbf10eb22be02f4c2fa89feb5d2c175be4ff26e3783eb07785bd1ad1d",
+    "archive_sha256": "c90c53d7d123d2ed9f62ba2fb31a61d175dbad4ebc31e969d277e959ab9e9d8d",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "audit/mask_target_equivalence_summary.json",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/audit/mask_target_equivalence_summary.json",
+    "source_sha256": "730cca745759fb6e053e8f8601bee9964fd3c40c9dc5456bcaee156a2387af12",
+    "archive_sha256": "b60a6c1b97b1da75c8ec0a39a5f32c7f1ac3790f44ff70e73a1598840c502912",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "audit/server_followup_20260924.md",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/audit/server_followup_20260924.md",
+    "source_sha256": "39ab201a407a19f744778e48d17b20903c6b5ad02dc251f818e404ee8788ef89",
+    "archive_sha256": "b79ba7c83c22e66e85f9913dc1a97de46969a7f5959e6d858c4fa980b7468461",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "audit/final_scientific_consistency_20260925.md",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/audit/final_scientific_consistency_20260925.md",
+    "source_sha256": "fb4326c8d24bd553bcbf528be3106c3f45527a8e1b1648a5aa7faf2a7fd63958",
+    "archive_sha256": "38bd00e93a041e85c40fe81964a109ec36800524e56765dc6db13ee14779503a",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "audit/mask_target_semantic_audit.md",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/audit/mask_target_semantic_audit.md",
+    "source_sha256": "39f50e45084539adcfa2fe2f37cc426d17325c635359c85697a6d29f172f5c9d",
+    "archive_sha256": "39f50e45084539adcfa2fe2f37cc426d17325c635359c85697a6d29f172f5c9d",
+    "type": "record",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "audit/training_target_equality_summary.json",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/review_package/audit/training_target_equality_summary.json",
+    "source_sha256": "a0527ddd3d15332a0de317b5212258a282a068b543a171dc6a7d445415e7d2b5",
+    "archive_sha256": "ffe1456d1fdfe035eb06222ab6f21dacd92a2448111cae22ae6dacbb4a52a9c6",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "provenance/det_engine_recovery_diff.patch",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/R50_Q300_recovery_fixed2_20260921/det_engine_recovery_diff.patch",
+    "source_sha256": "60cb5410f547aaf53577950280e5070a5206665dd2d70989bd2b53ca4e0c7e15",
+    "archive_sha256": "a5ca43d69a2e3f32a472db7d55da440f2851bd1a9a7f5f0c91da7e43ae284ba7",
+    "type": "upstream-derived patch",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "provenance/DEIM_LICENSE.txt",
+    "source_id": "<PROJECT_ROOT>/LICENSE",
+    "source_sha256": "0b96a67eae15322ae7837cbfed03cceed032d989a1ae57b274c5f4c57c0aa683",
+    "archive_sha256": "0b96a67eae15322ae7837cbfed03cceed032d989a1ae57b274c5f4c57c0aa683",
+    "type": "upstream license",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "environment/original_requirements.txt",
+    "source_id": "<MODEL_PROJECT>/requirements.txt",
+    "source_sha256": "58ac3ff0ca6281f557b0e4c434b84637d0f87f678d763d966064370e039c171a",
+    "archive_sha256": "623253623e5bf96889c2952374bf73cb1acc72611407bdd9049ce63659677d76",
+    "type": "record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "scripts/infer_r18.py",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/scripts/audit_q400_q600_infer.py",
+    "source_sha256": "a73ae4dd08290f2eea9c4386f007840edd3de4757bec0e30110fd8db29693d30",
+    "archive_sha256": "9a027a0a3be97201a1a67dde50b86e62c7b82341c8c770cc33769cf9c20df691",
+    "type": "inference script",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "scripts/infer_r50.py",
+    "source_id": "<PROJECT_ROOT>/research/experiments/preparation/LIVECell_R50_Q300_S0_36E/infer_r50_pair.py",
+    "source_sha256": "ad063e4ec6615233b8c587f848a1fc5fe209dc4b4b8ca05c981cd7391f17ce66",
+    "archive_sha256": "8e0de5b57c07f8b45791442431975213a0d3fd61f439a6449b811e0abfa50da8",
+    "type": "inference script",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "scripts/analyze_r50.py",
+    "source_id": "<PROJECT_ROOT>/research/experiments/preparation/LIVECell_R50_Q300_S0_36E/analyze_r50_pair.py",
+    "source_sha256": "894d6df4ccd1814bfd9425c5d9a1b70d41ed58b8588b1d140b2db4869f2fe51c",
+    "archive_sha256": "ee394a8259902e8af55a44694241336dfba25af073b3b106a0717ee429eee128",
+    "type": "analysis script",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "scripts/analyze_r18_four_budget.py",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_Q400_Q600_terminal_20260915/scripts/analyze_q400_q600.py",
+    "source_sha256": "25d94c009add8ae4563bb07686dc3ad98ec7294e0970295a6b72b341418de12c",
+    "archive_sha256": "940faa84f072dc538ecfa8d0a98c0599821ba072da7d97d9665d331a7aa3a284",
+    "type": "analysis script",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "scripts/analyze_primary.py",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_P0_prediction_and_target_20260912/scripts/analyze.py",
+    "source_sha256": "8f13efaebc185bc6b02a68fd53755ac3a6fa1177fbada8473bb3f42277dc49f4",
+    "archive_sha256": "3396a852910805f5ab8e269ab16753ec8be5001af8cd291f4a580fdb91e27d85",
+    "type": "analysis implementation",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "scripts/summarize_primary.py",
+    "source_id": "<PROJECT_ROOT>/research/experiments/scripts/archive_20260917/rebuild_terminal_audit_summaries.py",
+    "source_sha256": "912304e9fd938fc311e84e9aa5e72fecb6ad190df908ad404e8fb221de735b61",
+    "archive_sha256": "f2720823e62339c33f02bd77080250d26affe345a80d4ffacf0316855df3e84d",
+    "type": "summary script",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "scripts/reproduce_four_budget.py",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/reproduce_from_saved_audit.py",
+    "source_sha256": "78084a3454f8edafd131d7950d01a07dff421ed7d4b6a4da01e9772e1a4010c4",
+    "archive_sha256": "ff1772dbc4b2c4d18e32f4ca7ddf88c993a04cee66997199c13015730d47437b",
+    "type": "analysis and provenance script",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "scripts/audit_training_targets.py",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_P0_prediction_and_target_20260912/scripts/audit_training_targets.py",
+    "source_sha256": "70ebea73f7470633d93a3c887d0b585fc9465129335216bc0900343c7ae618f8",
+    "archive_sha256": "20ad9749850443d80e910f48a3082e99b185bc228bf3f0c4c98e22fc79cbed79",
+    "type": "semantic audit script",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "scripts/benchmark_query_cost.py",
+    "source_id": "<PROJECT_ROOT>/research/experiments/compute/query_budget_20260916/benchmark_query_cost.py",
+    "source_sha256": "fccb7b4c4c47b3b8d59833222e3eb3adadb451fc3ad2528464ceb86eb5732bdd",
+    "archive_sha256": "12fc138c0d377c0ee7015ead50c7ed4f6c310dca9591deaabe16e0708a9c5582",
+    "type": "engineering benchmark",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "figures_source/four_budget/plot_saved_analysis.py",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/plot_saved_analysis.py",
+    "source_sha256": "1eedd10ccd488cc88bf642f87570c70143d21b85eaba8fa4dd4daaff51b72063",
+    "archive_sha256": "09bc452935d65d3ecec62bab9ab35e9dda09eff5bd610e85d793f9e4df90e6fb",
+    "type": "figure generator",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "figures_source/four_budget/analysis/four_budget_common_precision_existing.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/analysis/four_budget_common_precision_existing.csv",
+    "source_sha256": "ee8b5d2033c467287edc521c33d7854def2174fd77630aaf9806163cbdbf8f76",
+    "archive_sha256": "ee8b5d2033c467287edc521c33d7854def2174fd77630aaf9806163cbdbf8f76",
+    "type": "figure input",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "figures_source/four_budget/analysis/four_budget_stratified_bootstrap.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/analysis/four_budget_stratified_bootstrap.csv",
+    "source_sha256": "17e97739a4f76185f6abdca1b7e452c2620842da85ff20b7f6612c25c9ef6aae",
+    "archive_sha256": "17e97739a4f76185f6abdca1b7e452c2620842da85ff20b7f6612c25c9ef6aae",
+    "type": "figure input",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "figures_source/four_budget/analysis/four_budget_stratified_primary.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/analysis/four_budget_stratified_primary.csv",
+    "source_sha256": "152a2f34e91d550911f101a19489abfbe9f42e6aab417490b6bb3bb455a14708",
+    "archive_sha256": "152a2f34e91d550911f101a19489abfbe9f42e6aab417490b6bb3bb455a14708",
+    "type": "figure input",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "figures_source/four_budget/analysis/four_budget_stratified_publication_table.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/analysis/four_budget_stratified_publication_table.csv",
+    "source_sha256": "991a57502247c6eeca8c870f83c6b338e68a0445dfd6b85093540277c3efda59",
+    "archive_sha256": "991a57502247c6eeca8c870f83c6b338e68a0445dfd6b85093540277c3efda59",
+    "type": "figure input",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "figures_source/four_budget/analysis/four_budget_threshold_scan.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/analysis/four_budget_threshold_scan.csv",
+    "source_sha256": "38a101461cf9b8a02ddf7ba83ddab096304160689eddaa48cf4cb3307fe8e783",
+    "archive_sha256": "38a101461cf9b8a02ddf7ba83ddab096304160689eddaa48cf4cb3307fe8e783",
+    "type": "figure input",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "figures_source/four_budget/analysis/query_budget_exposure.csv",
+    "source_id": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/analysis/query_budget_exposure.csv",
+    "source_sha256": "798eebaf8976aff99e2c3d6b3764204b9e54c562565d5a38c4766d051aa19713",
+    "archive_sha256": "798eebaf8976aff99e2c3d6b3764204b9e54c562565d5a38c4766d051aa19713",
+    "type": "figure input",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "figures_source/tradeoff/make_query_tradeoff_figure.py",
+    "source_id": "<PROJECT_ROOT>/research/manuscript/current/figures/make_query_tradeoff_figure.py",
+    "source_sha256": "172f13af80268bf1827b02a5d083a3116757dce270dec36d9ff528cd7b22e970",
+    "archive_sha256": "0fd70ca14ddb70a6049d525b90184019185b9f9e34c2a9aea7fef9ab88fdd36f",
+    "type": "figure generator",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "figures_source/tradeoff/fig_query_tradeoff_data.csv",
+    "source_id": "<PROJECT_ROOT>/research/manuscript/current/figures/fig_query_tradeoff_data.csv",
+    "source_sha256": "0ff611e1a59010eca5e9d720ebcb49dce4dda9d95b36041e02a6eebcd8962d4d",
+    "archive_sha256": "4730fde046365391c6f3e16166f825bf4e7523dc52dae6ca45cbb890def03ce0",
+    "type": "figure input",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "figures_source/qualitative/qualitative_dense_scene.py",
+    "source_id": "<PROJECT_ROOT>/research/manuscript/journal_of_imaging_submission/qualitative_dense_scene.py",
+    "source_sha256": "47c6bdcfbf89b72dd6811fae0a7667e806ba88e7b4a04fba9f309acb81359c45",
+    "archive_sha256": "cff08490fd2c636f98338bb85cb910828454adaaf4dde59b6b43876e4be135d0",
+    "type": "figure source record",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "figures_source/framework/query_budget_framework.tex",
+    "source_id": "<PROJECT_ROOT>/research/manuscript/journal_of_imaging_submission/figures/query_budget_framework.tex",
+    "source_sha256": "1e28e6a96f52c408469ef7f87148ba80a88f441a8b30703bc8e4f977b10d16fc",
+    "archive_sha256": "1d990715c40cda33e16ced8a1ba513ec18ae3f69986cee336ff75dd0937106f9",
+    "type": "conceptual figure source",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "figures_source/framework/query_budget_framework.dot",
+    "source_id": "<PROJECT_ROOT>/research/manuscript/journal_of_imaging_submission/figures/query_budget_framework.dot",
+    "source_sha256": "e77dcf3dd009fb0983d7fa79881f2edc62cf933fba81aca00a6cf747e50e8926",
+    "archive_sha256": "a326fcb657156852757f77e9dd69a195974e87189deedaf7ec70a709e34417d7",
+    "type": "conceptual figure source",
+    "modified_copy": true
+  },
+  {
+    "archive_path": "figures_source/framework/query_budget_framework.svg",
+    "source_id": "<PROJECT_ROOT>/research/manuscript/journal_of_imaging_submission/figures/query_budget_framework.svg",
+    "source_sha256": "51223c026c12fd91a2e808bbdab3a6991022bc1c30fb6839bc83e9ac39fb35da",
+    "archive_sha256": "51223c026c12fd91a2e808bbdab3a6991022bc1c30fb6839bc83e9ac39fb35da",
+    "type": "conceptual figure source",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "figures_source/frozen_exports/fig_four_budget_stratified_response.pdf",
+    "source_id": "<PROJECT_ROOT>/research/manuscript/journal_of_imaging_official_template/figures/fig_four_budget_stratified_response.pdf",
+    "source_sha256": "46aa46316a3cb94ad7cf3623e3cff9f6da4cb6e8ae9b614b785fba41f7664f7f",
+    "archive_sha256": "46aa46316a3cb94ad7cf3623e3cff9f6da4cb6e8ae9b614b785fba41f7664f7f",
+    "type": "frozen author plot/diagram",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "figures_source/frozen_exports/fig_query_tradeoff.pdf",
+    "source_id": "<PROJECT_ROOT>/research/manuscript/journal_of_imaging_official_template/figures/fig_query_tradeoff.pdf",
+    "source_sha256": "4b41b57bc90fe692b530fc6152969d570acf3b2b6ebe831b213101f36fd07c8b",
+    "archive_sha256": "4b41b57bc90fe692b530fc6152969d570acf3b2b6ebe831b213101f36fd07c8b",
+    "type": "frozen author plot/diagram",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "figures_source/frozen_exports/query_budget_framework.pdf",
+    "source_id": "<PROJECT_ROOT>/research/manuscript/journal_of_imaging_official_template/figures/query_budget_framework.pdf",
+    "source_sha256": "2cc80ef02d0226a023fe12e0824cad3829f9173080f73492e28303b962468421",
+    "archive_sha256": "2cc80ef02d0226a023fe12e0824cad3829f9173080f73492e28303b962468421",
+    "type": "frozen author plot/diagram",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "figures_source/frozen_exports/four_budget_threshold_pr.pdf",
+    "source_id": "<PROJECT_ROOT>/research/manuscript/journal_of_imaging_official_template/supplementary_figures/four_budget_threshold_pr.pdf",
+    "source_sha256": "457ecf00958bc9a67ccb872e8c758707f019bab052f984c48c14802a0d52a78c",
+    "archive_sha256": "457ecf00958bc9a67ccb872e8c758707f019bab052f984c48c14802a0d52a78c",
+    "type": "frozen author plot",
+    "modified_copy": false
+  },
+  {
+    "archive_path": "manifests/engineering_input_manifest.server.json",
+    "source_id": "<PROJECT_ROOT>/research/experiments/compute/query_budget_20260916/manifest.server.json",
+    "source_sha256": "1d69053070f3d03b0ecafa68864a5e4ffe04dedbbc2ea3f595765884630ba55a",
+    "archive_sha256": "ad62ac37429cf85e1fe46bb98113622b9e7bb9885080f74806852b08fdbe714d",
+    "modified_copy": true,
+    "type": "provenance"
+  },
+  {
+    "archive_path": "manifests/engineering_input_manifest.local.json",
+    "source_id": "<PROJECT_ROOT>/research/experiments/compute/query_budget_20260916/manifest.local.json",
+    "source_sha256": "a2eba3651bd5c7e384eb32755da9a34a81334e1573f99207c3a859acf4f8d980",
+    "archive_sha256": "f2016240119b342b42939559a35282fb4876c4bff28593fead3e298cc305ab0e",
+    "modified_copy": true,
+    "type": "provenance"
+  },
+  {
+    "archive_path": "provenance/qualitative_figure_source_record.json",
+    "source_id": "<PROJECT_ROOT>/research/manuscript/journal_of_imaging_submission/figures/fig_qualitative_dense_scene.provenance.json",
+    "source_sha256": "c0c0f63d63ed2dc76d7ee4345fd830fc9e4ea53f9d6ae2e0b0b96abcdf821c2d",
+    "archive_sha256": "386f5a0429c6837af2a55db858d5e74b70f8beb7f16eba978513c351fd7c5b1c",
+    "modified_copy": true,
+    "type": "provenance"
+  }
+]

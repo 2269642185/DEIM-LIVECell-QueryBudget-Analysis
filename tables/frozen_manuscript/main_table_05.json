@@ -1,0 +1,6 @@
+{
+  "source": "main.tex",
+  "table_order": 5,
+  "content_type": "exact LaTeX tabular transcription; no recalculation",
+  "tabular": "\\begin{tabular}{lrrrrrrr}\n\\toprule\n& & \\multicolumn{3}{c}{Recall} & \\multicolumn{3}{c}{Coverage}\\\\\n\\cmidrule(lr){3-5}\\cmidrule(lr){6-8}\n$N_{GT}$/image & Images & Q300 & Q500 & $\\Delta$ & Q300 & Q500 & $\\Delta$\\\\\n\\midrule\n$\\leq300$ & 362 & .7264 & .7501 & +.0236 & .7875 & .8503 & +.0628\\\\\n301--500 & 103 & .5843 & .7196 & +.1353 & .5917 & .7488 & +.1571\\\\\n$>500$ & 105 & .2987 & .4488 & +.1501 & .2997 & .4520 & +.1523\\\\\n\\bottomrule\n\\end{tabular}"
+}

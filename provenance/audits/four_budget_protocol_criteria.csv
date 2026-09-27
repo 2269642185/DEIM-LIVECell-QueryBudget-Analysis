@@ -1,0 +1,31 @@
+criterion_number,criterion,status,evidence,Q300_vs_Q400,Q300_vs_Q500,Q300_vs_Q600
+1,same dataset,UNPROVEN,documented root YAML; historical data content unverified,UNPROVEN,UNPROVEN,UNPROVEN
+2,same training split,UNPROVEN,same declared train path; per-run image IDs not archived,UNPROVEN,UNPROVEN,UNPROVEN
+3,same validation split,SUPPORTED,identical 570 IDs and validation annotation SHA-256,SUPPORTED,SUPPORTED,SUPPORTED
+4,same annotation content/hash,UNPROVEN,validation yes; training-at-run hash not archived,UNPROVEN,UNPROVEN,UNPROVEN
+5,same preprocessing,UNPROVEN,same reconstructed shared YAML include; historical source unverified,UNPROVEN,UNPROVEN,UNPROVEN
+6,same 640x640 resize,SUPPORTED,root YAMLs and shared include,SUPPORTED,SUPPORTED,SUPPORTED
+7,same augmentation pipeline,UNPROVEN,root YAMLs; historical source unverified,UNPROVEN,UNPROVEN,UNPROVEN
+8,same R18 backbone,SUPPORTED,root YAMLs and shared R18 include; checkpoint tensor shapes not inspected here,SUPPORTED,SUPPORTED,SUPPORTED
+9,same model architecture,UNPROVEN,root YAMLs; training source snapshots absent,UNPROVEN,UNPROVEN,UNPROVEN
+10,same 256-d object representation,SUPPORTED,root YAMLs and mask_grid 16x16,SUPPORTED,SUPPORTED,SUPPORTED
+11,same binary 16x16 mask head,SUPPORTED,root YAMLs and shared R18 include; checkpoint tensor shapes not inspected here,SUPPORTED,SUPPORTED,SUPPORTED
+12,same classifier/loss,UNPROVEN,root YAMLs; source snapshots absent,UNPROVEN,UNPROVEN,UNPROVEN
+13,same Hungarian assignment,UNPROVEN,shared declared architecture; historical matcher source absent,UNPROVEN,UNPROVEN,UNPROVEN
+14,same optimizer type,SUPPORTED,root YAMLs; Q400/Q600 launch logs,SUPPORTED,SUPPORTED,SUPPORTED
+15,same optimizer hyperparameters,SUPPORTED,root YAMLs; Q400/Q600 launch logs,SUPPORTED,SUPPORTED,SUPPORTED
+16,same base learning rate,SUPPORTED,root YAMLs; identical epoch LR series,SUPPORTED,SUPPORTED,SUPPORTED
+17,same weight decay,SUPPORTED,root YAMLs; Q400/Q600 launch logs,SUPPORTED,SUPPORTED,SUPPORTED
+18,same LR schedule,SUPPORTED,root YAMLs; identical 36-point epoch LR series,SUPPORTED,SUPPORTED,SUPPORTED
+19,same warmup,SUPPORTED,root YAMLs; Q400/Q600 launch logs,SUPPORTED,SUPPORTED,SUPPORTED
+20,same total batch size,SUPPORTED,root YAMLs; Q400/Q600 launch logs,SUPPORTED,SUPPORTED,SUPPORTED
+21,same AMP behavior,SUPPORTED,root YAMLs; Q400/Q600 launch logs,SUPPORTED,SUPPORTED,SUPPORTED
+22,same EMA behavior,SUPPORTED,Q400/Q600 launch logs; all four EMA checkpoint selections,SUPPORTED,SUPPORTED,SUPPORTED
+23,same 36 epochs,SUPPORTED,36 JSONL rows and 36 complete 1626-step epochs in full logs,SUPPORTED,SUPPORTED,SUPPORTED
+24,same epoch-35 EMA selection,SUPPORTED,terminal audit manifest for all four,SUPPORTED,SUPPORTED,SUPPORTED
+25,same random seed 0,SUPPORTED,all four full logged launch cfg records,SUPPORTED,SUPPORTED,SUPPORTED
+26,same training source semantics,UNPROVEN,historical per-run source snapshots/commits absent,UNPROVEN,UNPROVEN,UNPROVEN
+27,same inference implementation,SUPPORTED,single audit_infer.py for all four,SUPPORTED,SUPPORTED,SUPPORTED
+28,same mask reconstruction,SUPPORTED,single audit inference and analysis implementation,SUPPORTED,SUPPORTED,SUPPORTED
+29,same top-k except Q,SUPPORTED,"single audit script, top-Q set by Q",SUPPORTED,SUPPORTED,SUPPORTED
+30,same evaluation implementation,SUPPORTED,single analyze.py and common annotations,SUPPORTED,SUPPORTED,SUPPORTED

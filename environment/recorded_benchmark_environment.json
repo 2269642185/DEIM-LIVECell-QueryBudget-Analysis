@@ -1,0 +1,20 @@
+{
+  "python": "3.9.25 (main, Nov  3 2025, 22:33:05) \n[GCC 11.2.0]",
+  "platform": "Linux-5.15.0-107-generic-x86_64-with-glibc2.31",
+  "torch": "2.1.2+cu118",
+  "device": "cuda",
+  "cuda_available": true,
+  "cudnn": 8700,
+  "batch_size": 1,
+  "input_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "dtype": "float32",
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "cuda_runtime": "11.8",
+  "cudnn_benchmark": false,
+  "cudnn_deterministic": false
+}

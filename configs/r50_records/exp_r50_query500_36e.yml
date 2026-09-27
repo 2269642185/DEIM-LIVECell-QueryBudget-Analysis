@@ -1,0 +1,97 @@
+# Copyright (C) INTELLINDUST INFORMATION TECHNOLOGY (SHENZHEN) CO., LTD. and all its affiliates.
+# Upstream: Intellindust-AI-Lab/DEIM; Apache License 2.0.
+# Modified for the LIVECell query-budget analysis accompanying the manuscript "Query-Budget Effects in Dense Full-Image Cell Instance Segmentation: A Prediction-Level Analysis on LIVECell".
+# Release edits: path sanitization, developer-comment cleanup and license notices; scientific values and recovery diff hunks preserved.
+# See LICENSE and THIRD_PARTY_NOTICES.md at the archive root.
+# Configuration record derived from DEIM (INTELLINDUST), Apache-2.0.
+# See provenance/DEIM_LICENSE.txt and provenance/NOTICE.md.
+# Release copy: private paths were sanitized in the input candidate;
+# developer comments removed and attribution added. Values are unchanged.
+__include__: [
+  '../deim_rtdetrv2/rtdetrv2_r50vd_6x_coco.yml',
+  '../base/rt_deim.yml',
+]
+
+
+
+
+
+
+
+use_amp: True
+evaluator:
+  type: CocoEvaluator
+  iou_types: ['bbox', 'segm']
+
+output_dir: ./output/exp_r50_query500_36e
+num_classes: 8
+
+PResNet:
+  depth: 50
+  freeze_at: -1
+  freeze_norm: False
+  pretrained: True
+
+HybridEncoder:
+  in_channels: [512, 1024, 2048]
+  hidden_dim: 256
+  expansion: 0.5
+
+RTDETRTransformerv2:
+  num_queries: 500
+  num_layers: 3
+  feat_channels: [256, 256, 256]
+  feat_strides: [8, 16, 32]
+  use_binary_mask_head: True
+  mask_grid_size: 16
+
+optimizer:
+  type: AdamW
+  params:
+    -
+      params: '^(?=.*(?:norm|bn)).*$'
+      weight_decay: 0.
+  lr: 0.0002
+  betas: [0.9, 0.999]
+  weight_decay: 0.0001
+
+epoches: 36
+flat_epoch: 1
+no_aug_epoch: 0
+checkpoint_freq: 12
+
+train_dataloader:
+  total_batch_size: 2
+  dataset:
+    return_masks: False
+    mask_grid_size: 16
+    img_folder: datasets/livecell/images/livecell_trainimages/
+    ann_file: datasets/livecell/annotations/livecell_coco_train.json
+    transforms:
+      ops:
+        - {type: Resize, size: [640, 640]}
+        - {type: ConvertPILImage, dtype: 'float32', scale: True}
+        - {type: ConvertBoxes, fmt: 'cxcywh', normalize: True}
+      policy: ~
+  collate_fn:
+    type: BatchImageCollateFunction
+    mixup_prob: 0.0
+
+val_dataloader:
+  total_batch_size: 2
+  num_workers: 4
+  dataset:
+    return_masks: True
+    img_folder: datasets/livecell/images/livecell_valimages/
+    ann_file: datasets/livecell/annotations/livecell_coco_val.json
+
+DEIMCriterion:
+  weight_dict: {loss_vfl: 1, loss_bbox: 5, loss_giou: 2, loss_sdf: 0.0, loss_mask: 0.5}
+  losses: ['vfl', 'boxes', 'binary_masks']
+  pca_dim: 256
+  alpha: 0.75
+
+PostProcessor:
+  num_top_queries: 500
+  pca_model_path: 'cell_pca_model.pkl'
+  mask_source: 'binary'

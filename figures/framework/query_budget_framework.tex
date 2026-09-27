@@ -1,0 +1,76 @@
+/documentclass{standalone}
+/usepackage{tikz}
+/usetikzlibrary{arrows.meta}
+/usepackage{amsmath,amssymb}
+/usepackage{xcolor}
+/definecolor{Edge}{HTML}{34495E}
+/colorlet{darkbluegray}{Edge}
+/definecolor{blue}{HTML}{DCEAF7}
+/definecolor{warm}{HTML}{FBE8C9}
+/definecolor{green}{HTML}{E1EFE2}
+/definecolor{purple}{HTML}{E9E1F2}
+/definecolor{summary}{HTML}{EEF2F5}
+/definecolor{Accent}{HTML}{7A1F1F}
+/definecolor{Text}{HTML}{1F2933}
+/newcommand{/fw}[1]{/makebox[2.85in][c]{#1}}
+/tikzset{
+  flowarrow/.style={draw=darkbluegray, line width=0.8pt, -{Stealth[length=2mm,width=1.5mm]}},
+  flowline/.style={draw=darkbluegray, line width=0.8pt}
+}
+/begin{document}
+/begin{tikzpicture}[x=1bp,y=1bp,>=latex,line cap=butt,line join=round]
+/path[draw=none,use as bounding box] (-15bp,-25bp) rectangle (755.808bp,603.478bp);
+/node[draw=Edge, rounded corners=7pt, line width=0.85pt, fill=blue, minimum width=302.400bp, minimum height=44.640bp, inner sep=0pt, align=center, anchor=center] (livecell) at (370.397bp,566.158bp) {/shortstack[c]{/fontsize{18}{21}/selectfont/bfseries LIVECell full image}};
+/node[draw=Edge, rounded corners=7pt, line width=0.85pt, fill=blue, minimum width=302.400bp, minimum height=44.640bp, inner sep=0pt, align=center, anchor=center] (deim) at (370.397bp,499.522bp) {/shortstack[c]{/fontsize{17}{20}/selectfont/bfseries DEIM with query budget Q}};
+/node[draw=Edge, rounded corners=7pt, line width=0.85pt, fill=blue, minimum width=302.400bp, minimum height=56.160bp, inner sep=0pt, align=center, anchor=center] (predictions) at (370.397bp,427.118bp) {/shortstack[c]{/fontsize{17}{20}/selectfont/bfseries Final-query predictions/[3pt]/fontsize{13}{15}/selectfont boxes $/cdot$ scores $/cdot$ masks}};
+/coordinate (split) at (370.397bp,376.682bp);
+/coordinate (merge) at (370.397bp,126.763bp);
+/node[draw=Edge, rounded corners=7pt, line width=0.85pt, fill=warm, minimum width=226.800bp, minimum height=205.200bp, inner sep=0pt, align=center, anchor=center] (count) at (113.400bp,251.719bp) {};
+/node[draw=Edge, rounded corners=7pt, line width=0.85pt, fill=green, minimum width=226.800bp, minimum height=205.200bp, inner sep=0pt, align=center, anchor=center] (audit) at (370.397bp,251.719bp) {};
+/node[draw=Edge, rounded corners=7pt, line width=0.85pt, fill=purple, minimum width=226.800bp, minimum height=205.200bp, inner sep=0pt, align=center, anchor=center] (engineering) at (627.401bp,251.719bp) {};
+/node[draw=Edge, rounded corners=7pt, line width=0.85pt, fill=summary, minimum width=345.600bp, minimum height=54.400bp, inner sep=0pt, align=center, anchor=center] (characterization) at (370.397bp,77.198bp) {};
+/node[anchor=center] (concept) at (370.397bp,32.000bp) {};
+/coordinate (split_left) at (113.400bp,376.682bp);
+/coordinate (split_center) at (370.397bp,376.682bp);
+/coordinate (split_right) at (627.401bp,376.682bp);
+/draw[flowarrow] (livecell.south) -- (deim.north);
+/draw[flowarrow] (deim.south) -- (predictions.north);
+/draw[flowline] (predictions.south) -- (split);
+/draw[flowline] (split_left) -- (split_right);
+/draw[flowarrow] (split_left) -- (count.north);
+/draw[flowarrow] (split_center) -- (audit.north);
+/draw[flowarrow] (split_right) -- (engineering.north);
+/draw[flowline] (count.south) -- ++(0,-5mm) -| (merge);
+/draw[flowline] (audit.south) -- (merge);
+/draw[flowline] (engineering.south) -- ++(0,-5mm) -| (merge);
+/draw[flowarrow] (merge) -- (characterization.north);
+/node[anchor=center, inner sep=0pt, text=Text] at (113.400bp,323.719bp) {/fontsize{16}{18}/selectfont /bfseries Count context};
+/node[anchor=center, inner sep=0pt, text=Text] at (113.400bp,288.719bp) {/fontsize{13}{15}/selectfont  Ground-truth count};
+/node[anchor=center, inner sep=0pt, text=Text] at (113.400bp,267.719bp) {/fontsize{15}{17}/selectfont  $N_{/mathrm{GT}}(I)$};
+/node[anchor=center, inner sep=0pt, text=Text] at (113.400bp,230.719bp) {/fontsize{13}{15}/selectfont  Arithmetic budget gap};
+/node[anchor=center, inner sep=0pt, text=Text] at (113.400bp,208.719bp) {/fontsize{12}{14}/selectfont  $G_Q(I)=/max(N_{/mathrm{GT}}(I)-Q,0)$};
+/node[anchor=center, inner sep=0pt, text=Text] at (113.400bp,176.719bp) {/fontsize{13}{15}/selectfont  Instance-count strata};
+/node[anchor=center, inner sep=0pt, text=Text] at (113.400bp,163.719bp) {/fontsize{12}{14}/selectfont  $/leq300$ $/cdot$ $301$--$500$ $/cdot$ $>500$};
+/node[anchor=center, inner sep=0pt, text=Text] at (370.397bp,323.719bp) {/fontsize{16}{18}/selectfont /bfseries Prediction audit};
+/node[anchor=center, inner sep=0pt, text=Text] at (370.397bp,291.719bp) {/fontsize{13}{15}/selectfont /bfseries Score-based};
+/node[anchor=center, inner sep=0pt, text=Text] at (370.397bp,269.719bp) {/fontsize{12}{14}/selectfont  score $/geq$ 0.50 $/cdot$ 1-to-1 matching};
+/node[anchor=center, inner sep=0pt, text=Text] at (370.397bp,246.719bp) {/fontsize{12}{14}/selectfont  TP $/cdot$ FP $/cdot$ FN $/cdot$ Precision $/cdot$ Recall};
+/draw[draw=gray, line width=0.4pt] (274.997bp,233.719bp) -- (465.797bp,233.719bp);
+/node[anchor=center, inner sep=0pt, text=Text] at (370.397bp,213.719bp) {/fontsize{13}{15}/selectfont /bfseries Score-free};
+/node[anchor=center, inner sep=0pt, text=Text] at (370.397bp,197.719bp) {/fontsize{12}{14}/selectfont  all final-query masks};
+/node[anchor=center, inner sep=0pt, text=Text] at (370.397bp,173.719bp) {/fontsize{12}{14}/selectfont  geometric matching};
+/node[anchor=center, inner sep=0pt, text=Text] at (370.397bp,158.719bp) {/fontsize{13}{15}/selectfont  Candidate coverage};
+/node[anchor=center, inner sep=0pt, text=Text] at (627.401bp,311.719bp) {/fontsize{16}{18}/selectfont /bfseries Engineering cost};
+/node[anchor=center, inner sep=0pt, text=Text] at (627.401bp,273.719bp) {/fontsize{13}{15}/selectfont  Model-forward FLOPs};
+/node[anchor=center, inner sep=0pt, text=Text] at (627.401bp,237.719bp) {/fontsize{13}{15}/selectfont  Pipeline latency};
+/node[anchor=center, inner sep=0pt, text=Text] at (627.401bp,201.719bp) {/fontsize{13}{15}/selectfont  Peak GPU memory};
+/node[anchor=center, inner sep=0pt, text=gray] at (627.401bp,167.719bp) {/fontsize{11}{13}/selectfont  Full-image mask reconstruction};
+/node[anchor=center, inner sep=0pt, text=Text] at (370.397bp,93.198bp) {/fontsize{16}{18}/selectfont /bfseries Query-budget characterization};
+/node[anchor=center, inner sep=0pt, text=Text] at (370.397bp,74.198bp) {/fontsize{13}{15}/selectfont  Accuracy $/cdot$ Recall $/cdot$ Candidate availability $/cdot$ Cost};
+/node[anchor=center, inner sep=0pt, text=gray] at (370.397bp,56.198bp) {/fontsize{11}{13}/selectfont  interpreted with respect to image instance count};
+/node[anchor=center, inner sep=0pt, text=Text] at (370.397bp,16.800bp) {/fontsize{17}{19}/selectfont /bfseries /textcolor{Accent}{$G_Q(I)/ /neq/ Evaluation/ FN/ /neq/ Candidate/ coverage$}};
+/node[anchor=center, inner sep=0pt, text=Text] at (245.397bp,-9.200bp) {/fontsize{11}{13}/selectfont  /textcolor{gray}{count statistic}};
+/node[anchor=center, inner sep=0pt, text=Text] at (370.397bp,-9.200bp) {/fontsize{11}{13}/selectfont  /textcolor{gray}{threshold-dependent}};
+/node[anchor=center, inner sep=0pt, text=Text] at (495.397bp,-9.200bp) {/fontsize{11}{13}/selectfont  /textcolor{gray}{score-free availability}};
+/end{tikzpicture}
+/end{document}

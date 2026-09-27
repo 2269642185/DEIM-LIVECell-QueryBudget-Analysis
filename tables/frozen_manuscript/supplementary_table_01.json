@@ -1,0 +1,6 @@
+{
+  "source": "supplementary.tex",
+  "table_order": 1,
+  "content_type": "exact LaTeX tabular transcription; no recalculation",
+  "tabular": "\\begin{tabular}{lrr}\n\\toprule\nVariant & Probe mAP & Status\\\\\n\\midrule\nRoIAlign+CNN & 0.001 & collapsed probe\\\\\nKernelGen (3$\\times$3) & 0.031 & stopped probe\\\\\nRefine & 0.038 & stopped probe\\\\\nCenterness & 0.040 & stopped probe\\\\\nPixel (1$\\times$1) & 0.047 & stopped probe\\\\\nPrototype & 0.080 & stopped probe\\\\\nD8--32 & 0.123 & stopped probe\\\\\n\\bottomrule\n\\end{tabular}"
+}

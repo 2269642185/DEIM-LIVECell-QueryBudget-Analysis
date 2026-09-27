@@ -1,0 +1,17 @@
+# Recorded engineering run: Python 3.9.25, CUDA runtime 11.8.
+# Not a complete historical lockfile.
+torch==2.1.2+cu118
+# Dependency names below are known; historical exact versions are unavailable.
+numpy
+scipy
+pandas
+matplotlib
+PyYAML
+faster-coco-eval
+pycocotools
+opencv-python
+Pillow
+tifffile
+calflops
+# The compatible model implementation also requires its own dependencies.
+# No installation or upgrade occurred during packaging.

@@ -1,0 +1,150 @@
+digraph QueryBudgetFramework {
+    graph [
+        rankdir=TB,
+        splines=ortho,
+        outputorder=edgesfirst,
+        nodesep=0.42,
+        ranksep=0.30,
+        pad=0.08,
+        margin=0.04,
+        bgcolor="white",
+        fontname="Arial"
+    ];
+
+    node [
+        shape=box,
+        style="rounded,filled",
+        color="#34495E",
+        penwidth=1.1,
+        fontname="Arial",
+        fontcolor="#1F2933",
+        margin="0.16,0.10"
+    ];
+
+    edge [
+        color="#34495E",
+        penwidth=1.0,
+        arrowsize=0.72,
+        arrowhead=normal,
+        dir=forward
+    ];
+
+    image [
+        width=4.2,
+        height=0.62,
+        fillcolor="#DCEAF7",
+        label=<<FONT POINT-SIZE="18"><B>LIVECell full image</B></FONT>>
+    ];
+    model [
+        width=4.2,
+        height=0.62,
+        fillcolor="#DCEAF7",
+        label=<<FONT POINT-SIZE="17"><B>DEIM with query budget Q</B></FONT>>
+    ];
+    predictions [
+        width=4.2,
+        height=0.78,
+        fillcolor="#DCEAF7",
+        label=<<FONT POINT-SIZE="17"><B>Final-query predictions</B></FONT><BR/><FONT POINT-SIZE="13">boxes &#183; scores &#183; masks</FONT>>
+    ];
+
+    split [shape=point, width=0.01, height=0.01, label="", color="#34495E"];
+    merge [shape=point, width=0.01, height=0.01, label="", color="#34495E"];
+
+    count [
+        width=3.15,
+        height=2.85,
+        fixedsize=true,
+        fillcolor="#FBE8C9",
+        label=<
+          <TABLE BORDER="0" CELLBORDER="0" CELLPADDING="2" CELLSPACING="0">
+            <TR><TD><FONT POINT-SIZE="16"><B>Count context</B></FONT></TD></TR>
+            <TR><TD HEIGHT="12"></TD></TR>
+            <TR><TD><FONT POINT-SIZE="13">Ground-truth count</FONT></TD></TR>
+            <TR><TD><FONT POINT-SIZE="15">N<SUB>GT</SUB>(I)</FONT></TD></TR>
+            <TR><TD HEIGHT="7"></TD></TR>
+            <TR><TD><FONT POINT-SIZE="13">Arithmetic budget gap</FONT></TD></TR>
+            <TR><TD><FONT POINT-SIZE="12">G<SUB>Q</SUB>(I) = max(N<SUB>GT</SUB>(I) - Q, 0)</FONT></TD></TR>
+            <TR><TD HEIGHT="7"></TD></TR>
+            <TR><TD><FONT POINT-SIZE="13">Instance-count strata</FONT></TD></TR>
+            <TR><TD><FONT POINT-SIZE="12">&#8804;300 &#183; 301&#8211;500 &#183; &gt;500</FONT></TD></TR>
+          </TABLE>
+        >
+    ];
+
+    audit [
+        width=3.15,
+        height=2.85,
+        fixedsize=true,
+        fillcolor="#E1EFE2",
+        label=<
+          <TABLE BORDER="0" CELLBORDER="0" CELLPADDING="2" CELLSPACING="0">
+            <TR><TD><FONT POINT-SIZE="16"><B>Prediction audit</B></FONT></TD></TR>
+            <TR><TD HEIGHT="10"></TD></TR>
+            <TR><TD><FONT POINT-SIZE="13"><B>Score-based</B></FONT></TD></TR>
+            <TR><TD><FONT POINT-SIZE="12">score &#8805; 0.50 &#183; 1-to-1 matching</FONT></TD></TR>
+            <TR><TD><FONT POINT-SIZE="12">TP &#183; FP &#183; FN &#183; Precision &#183; Recall</FONT></TD></TR>
+            <TR><TD HEIGHT="9"></TD></TR>
+            <TR><TD><FONT COLOR="#8A98A3">&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</FONT></TD></TR>
+            <TR><TD HEIGHT="5"></TD></TR>
+            <TR><TD><FONT POINT-SIZE="13"><B>Score-free</B></FONT></TD></TR>
+            <TR><TD><FONT POINT-SIZE="12">all final-query masks</FONT></TD></TR>
+            <TR><TD><FONT POINT-SIZE="12">geometric matching</FONT></TD></TR>
+            <TR><TD><FONT POINT-SIZE="13">Candidate coverage</FONT></TD></TR>
+          </TABLE>
+        >
+    ];
+
+    engineering [
+        width=3.15,
+        height=2.85,
+        fixedsize=true,
+        fillcolor="#E9E1F2",
+        label=<
+          <TABLE BORDER="0" CELLBORDER="0" CELLPADDING="2" CELLSPACING="0">
+            <TR><TD><FONT POINT-SIZE="16"><B>Engineering cost</B></FONT></TD></TR>
+            <TR><TD HEIGHT="16"></TD></TR>
+            <TR><TD><FONT POINT-SIZE="13">Model-forward FLOPs</FONT></TD></TR>
+            <TR><TD HEIGHT="10"></TD></TR>
+            <TR><TD><FONT POINT-SIZE="13">Pipeline latency</FONT></TD></TR>
+            <TR><TD HEIGHT="10"></TD></TR>
+            <TR><TD><FONT POINT-SIZE="13">Peak GPU memory</FONT></TD></TR>
+            <TR><TD HEIGHT="12"></TD></TR>
+            <TR><TD><FONT POINT-SIZE="11" COLOR="#596774">Full-image mask reconstruction</FONT></TD></TR>
+          </TABLE>
+        >
+    ];
+
+    characterization [
+        width=4.8,
+        height=0.72,
+        fillcolor="#EEF2F5",
+        label=<<FONT POINT-SIZE="16"><B>Query-budget characterization</B></FONT><BR/><FONT POINT-SIZE="13">Accuracy &#183; Recall &#183; Candidate availability &#183; Cost</FONT><BR/><FONT POINT-SIZE="11" COLOR="#596774">interpreted with respect to image instance count</FONT>>
+    ];
+
+    concept [
+        shape=plain,
+        style="",
+        color="white",
+        fillcolor="white",
+        margin=0,
+        label=<<FONT POINT-SIZE="17" COLOR="#7A1F1F"><B>G<SUB>Q</SUB>(I) &#8800; Evaluation FN &#8800; Candidate coverage</B></FONT><BR/><FONT POINT-SIZE="11" COLOR="#596774">count statistic &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; threshold-dependent &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; score-free availability</FONT>>
+    ];
+
+    image -> model;
+    model -> predictions;
+    predictions -> split;
+
+    { rank=same; count; audit; engineering; }
+    count -> audit [style=invis, weight=100];
+    audit -> engineering [style=invis, weight=100];
+    split -> count;
+    split -> audit;
+    split -> engineering;
+
+    count -> merge [dir=forward, arrowhead=none];
+    audit -> merge [dir=forward, arrowhead=none];
+    engineering -> merge [dir=forward, arrowhead=none];
+    merge -> characterization [dir=forward, arrowhead=normal];
+    characterization -> concept [style=invis, weight=20];
+}

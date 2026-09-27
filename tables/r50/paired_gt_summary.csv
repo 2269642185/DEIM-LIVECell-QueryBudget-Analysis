@@ -1,0 +1,9 @@
+iou,pair_status,instances,median_mask_area_pixels_squared
+0.5,both,85551,330.0
+0.5,only500,26960,216.0
+0.5,only300,5464,333.0
+0.5,neither,63635,157.0
+0.75,both,48235,348.0
+0.75,only500,16549,232.0
+0.75,only300,6993,277.0
+0.75,neither,109833,198.0

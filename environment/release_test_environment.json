@@ -1,0 +1,14 @@
+{
+  "python": "3.13.5",
+  "platform": "Windows",
+  "packages": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0",
+    "PyYAML": "6.0.2",
+    "PyMuPDF": "1.26.6"
+  },
+  "scope": "Level A release verification only; no historical training environment assertion",
+  "pytorch_used": false,
+  "cuda_used": false
+}

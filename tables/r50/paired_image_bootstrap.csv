@@ -1,0 +1,3 @@
+comparison,iou,threshold,delta_micro_recall,ci95_low_image_bootstrap,ci95_high_image_bootstrap,images,replicates,seed,uncertainty_unit
+r50_500_minus_r50_300,0.5,0.5,0.11836352623754198,0.11035206010977228,0.12630100137283698,570,2000,20260917,validation image; not training seed
+r50_500_minus_r50_300,0.75,0.5,0.05261824789383845,0.04729692152372443,0.05807651928870807,570,2000,20260917,validation image; not training seed

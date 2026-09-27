@@ -1,0 +1,8 @@
+Copyright (C) INTELLINDUST INFORMATION TECHNOLOGY (SHENZHEN) CO., LTD. and all its affiliates.
+Upstream: Intellindust-AI-Lab/DEIM; Apache License 2.0.
+Modified for the LIVECell query-budget analysis accompanying the manuscript "Query-Budget Effects in Dense Full-Image Cell Instance Segmentation: A Prediction-Level Analysis on LIVECell".
+Release edits: path sanitization, developer-comment cleanup and license notices; scientific values and recovery diff hunks preserved.
+See LICENSE and THIRD_PARTY_NOTICES.md at the archive root.
+
+Applies to: q500_logged_cfg.json
+This serialized configuration record is unchanged; this adjacent notice avoids inserting non-configuration keys.

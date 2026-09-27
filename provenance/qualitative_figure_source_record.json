@@ -1,0 +1,61 @@
+{
+  "selection": {
+    "N_GT \u2264 300": {
+      "image_id": 1616613,
+      "file_name": "SHSY5Y_Phase_B10_2_03d00h00m_2.tif",
+      "gt": 299,
+      "q300_tp": 183,
+      "q500_tp": 240,
+      "recovered_gt": 73,
+      "q500_additional_fp_shown": 3,
+      "roi_gt_index": 99,
+      "roi_xyxy": [
+        496,
+        53,
+        704,
+        262
+      ],
+      "roi_rule": "largest-area Q500-recovered GT instance, with deterministic square context margin"
+    },
+    "301 \u2264 N_GT \u2264 500": {
+      "image_id": 1238983,
+      "file_name": "SkBr3_Phase_E3_1_03d00h00m_2.tif",
+      "gt": 492,
+      "q300_tp": 291,
+      "q500_tp": 421,
+      "recovered_gt": 134,
+      "q500_additional_fp_shown": 3,
+      "roi_gt_index": 68,
+      "roi_xyxy": [
+        0,
+        238,
+        167,
+        452
+      ],
+      "roi_rule": "largest-area Q500-recovered GT instance, with deterministic square context margin"
+    },
+    "N_GT > 500": {
+      "image_id": 899322,
+      "file_name": "BV2_Phase_C4_1_02d04h00m_3.tif",
+      "gt": 855,
+      "q300_tp": 299,
+      "q500_tp": 483,
+      "recovered_gt": 195,
+      "q500_additional_fp_shown": 3,
+      "roi_gt_index": 660,
+      "roi_xyxy": [
+        534,
+        442,
+        625,
+        520
+      ],
+      "roi_rule": "largest-area Q500-recovered GT instance, with deterministic square context margin"
+    }
+  },
+  "source": {
+    "annotation": "<PROJECT_ROOT>/research/code/deim_livecell/datasets/livecell/annotations/livecell_coco_val.json",
+    "image_root": "<PROJECT_ROOT>/research/code/deim_livecell/datasets/livecell/images/livecell_train_val_images",
+    "r18_q300_cache": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_P0_prediction_and_target_20260912/cache/r18_300",
+    "r18_q500_cache": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_P0_prediction_and_target_20260912/cache/r18_500"
+  }
+}

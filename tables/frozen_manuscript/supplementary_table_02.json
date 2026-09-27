@@ -1,0 +1,6 @@
+{
+  "source": "supplementary.tex",
+  "table_order": 2,
+  "content_type": "exact LaTeX tabular transcription; no recalculation",
+  "tabular": "\\begin{tabular}{p{2.1cm}p{1.5cm}p{1.0cm}p{4.0cm}p{3.2cm}p{2.0cm}}\n\\toprule\n\\parbox[t]{2.1cm}{\\centering Evidence\\\\cohort} & \\parbox[t]{1.5cm}{\\centering Backbone} & \\parbox[t]{1.0cm}{\\centering Queries} & \\parbox[t]{4.0cm}{\\centering Training/checkpoint\\\\provenance} & \\parbox[t]{3.2cm}{\\centering Protocol\\\\compatibility} & \\parbox[t]{2.0cm}{\\centering Role in\\\\manuscript}\\\\\n\\midrule\nPrimary detailed & R18 & 300 & Seed 0; 36 epochs; epoch-35 EMA; terminal input \\texttt{q300.pth} & Primary R18 audit protocol & Detailed Q300--Q500 audit; terminal $2\\times2$\\\\\nPrimary detailed & R18 & 500 & Seed 0; 36 epochs; epoch-35 EMA; terminal input \\texttt{q500.pth} & Primary R18 audit protocol & Detailed Q300--Q500 audit; terminal $2\\times2$\\\\\nComplementary compatible & R18 & 400 & Seed 0; 36 epochs; epoch-35 EMA; \\texttt{checkpoint0035.pth} & Evaluation compatibility verified against primary protocol & Q300--Q600 response curve\\\\\nComplementary compatible & R18 & 600 & Seed 0; 36 epochs; epoch-35 EMA; \\texttt{checkpoint0035.pth} & Evaluation compatibility verified against primary protocol & Q300--Q600 response curve\\\\\n\\bottomrule\n\\end{tabular}"
+}

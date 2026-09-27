@@ -1,0 +1,6 @@
+{
+  "source": "main.tex",
+  "table_order": 3,
+  "content_type": "exact LaTeX tabular transcription; no recalculation",
+  "tabular": "\\begin{tabular}{lrrrrrrr}\n\\toprule\nModel & mAP & AP$_{50}$ & Prec. & Recall & TP & FP & FN\\\\\n\\midrule\nR18-Q300 & .2541 & .4760 & .8252 & .4813 & 87,403 & 18,517 & 94,207\\\\\nR18-Q500 & .3034 & .5802 & .7813 & .5927 & 107,632 & 30,124 & 73,978\\\\\n\\bottomrule\n\\end{tabular}"
+}

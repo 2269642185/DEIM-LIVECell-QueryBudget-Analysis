@@ -1,0 +1,22 @@
+# Copyright (C) INTELLINDUST INFORMATION TECHNOLOGY (SHENZHEN) CO., LTD. and all its affiliates.
+# Upstream: Intellindust-AI-Lab/DEIM; Apache License 2.0.
+# Modified for the LIVECell query-budget analysis accompanying the manuscript "Query-Budget Effects in Dense Full-Image Cell Instance Segmentation: A Prediction-Level Analysis on LIVECell".
+# Release edits: path sanitization, developer-comment cleanup and license notices; scientific values and recovery diff hunks preserved.
+# See LICENSE and THIRD_PARTY_NOTICES.md at the archive root.
+# Configuration record derived from DEIM (INTELLINDUST), Apache-2.0.
+# See provenance/DEIM_LICENSE.txt and provenance/NOTICE.md.
+# Release copy: private paths were sanitized in the input candidate;
+# developer comments removed and attribution added. Values are unchanged.
+__include__: [
+  'exp_r50_query500_36e.yml',
+]
+
+
+
+output_dir: ./output/exp_r50_query300_36e_clean
+
+RTDETRTransformerv2:
+  num_queries: 300
+
+PostProcessor:
+  num_top_queries: 300

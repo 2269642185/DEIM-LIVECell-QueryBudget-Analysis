@@ -1,0 +1,5 @@
+backbone,query_budget,mask_mAP,mask_AP50,evidence_role
+R18,300,0.2541,0.4760,primary
+R18,500,0.3034,0.5802,primary
+R50,300,0.2594,0.4936,corroborating recovery-fixed2
+R50,500,0.3133,0.6165,corroborating

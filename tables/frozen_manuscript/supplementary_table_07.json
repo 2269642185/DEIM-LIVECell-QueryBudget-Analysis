@@ -1,0 +1,6 @@
+{
+  "source": "supplementary.tex",
+  "table_order": 7,
+  "content_type": "exact LaTeX tabular transcription; no recalculation",
+  "tabular": "\\begin{tabular}{rrrrrr}\n\\toprule\nQueries & mAP & AP$_{50}$ & Precision & Recall & Coverage\\\\\n\\midrule\n300 & .2541 & .4760 & .8252 & .4813 & .5005\\\\\n400 & .2822 & .5372 & .8012 & .5454 & .5747\\\\\n500 & .3034 & .5802 & .7813 & .5927 & .6288\\\\\n600 & .3159 & .6170 & .7772 & .6195 & .6715\\\\\n\\bottomrule\n\\end{tabular}"
+}

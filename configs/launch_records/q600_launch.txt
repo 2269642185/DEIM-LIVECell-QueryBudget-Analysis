@@ -1,0 +1,6 @@
+ORIGINAL SCRIPT: <MODEL_PROJECT>/_run_p2_query400_600.sh
+ARCHIVED SCRIPT: _run_p2_query400_600.sh
+COMMAND EXTRACTED FROM ORIGINAL SCRIPT:
+python -u train.py -c configs/deim_sdf/exp_p2_query600_36e.yml --use-amp --seed=0
+ORIGINAL LOG: <MODEL_PROJECT>/exp_p2_query600_36e_run.log
+The script is shared with the other run in its Q300/Q500 or Q400/Q600 pair.

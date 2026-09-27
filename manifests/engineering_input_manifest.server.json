@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "name": "r18_300",
+      "queries": 300,
+      "config": "configs/deim_sdf/exp_binary_mask_36e.yml",
+      "checkpoint": "<ARTIFACT_ROOT>/p0_terminal_inputs_20260913/q300.pth"
+    },
+    {
+      "name": "r18_400",
+      "queries": 400,
+      "config": "configs/deim_sdf/exp_p2_query400_36e.yml",
+      "checkpoint": "<CHECKPOINT_ROOT>/exp_p2_query400_36e/checkpoint0035.pth"
+    },
+    {
+      "name": "r18_500",
+      "queries": 500,
+      "config": "configs/deim_sdf/exp_query500_36e.yml",
+      "checkpoint": "<ARTIFACT_ROOT>/p0_terminal_inputs_20260913/q500.pth"
+    },
+    {
+      "name": "r18_600",
+      "queries": 600,
+      "config": "configs/deim_sdf/exp_p2_query600_36e.yml",
+      "checkpoint": "<CHECKPOINT_ROOT>/exp_p2_query600_36e/checkpoint0035.pth"
+    }
+  ]
+}

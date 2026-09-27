@@ -1,0 +1,236 @@
+[
+  {
+    "path": "CITATION.cff",
+    "previous_sha256": "83ce81e230f12660d504d084382a5f8c99c8c0526b6981165b64edf5a28d654c",
+    "final_sha256": "87643958d79d53d82507399d19c12d4ba57adf377e58ce785877dc7b36044e06",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/inference_resolved/primary_r18_r18_300.json.NOTICE.txt",
+    "previous_sha256": null,
+    "final_sha256": "23317a0919033930b084961054c849ddb330b7e33d8b906aebb3360dd0883dd4",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/inference_resolved/primary_r18_r18_500.json.NOTICE.txt",
+    "previous_sha256": null,
+    "final_sha256": "2157f1b47c480813182aee44e9ddcf9bd0fdc21de30a43c3c969e6afaca2fd9c",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/r18_records/q300_launch.yml",
+    "previous_sha256": "35a47393fa277547d2a0d4e186f1b3d34b870d72023b860ccf7fe89757e6083a",
+    "final_sha256": "54200494a8403ea7800682321f4cd96dd39ef65eb36f97172c08b9c822d864c7",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/r18_records/q300_logged_cfg.json.NOTICE.txt",
+    "previous_sha256": null,
+    "final_sha256": "ba2539c2d98af8e9494f5fc7ec60b09629dd079395f9608a24d102cbbd99be88",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/r18_records/q400_launch.yml",
+    "previous_sha256": "c51d22e63c6d759684a63989530627dc0e06d8c7b892999be1b643e6895cf0ed",
+    "final_sha256": "fa43dfb5f903f212092507e32b21ef853d68cd60e8613995a8228fe4f4389737",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/r18_records/q400_logged_cfg.json.NOTICE.txt",
+    "previous_sha256": null,
+    "final_sha256": "d9270dd309cafd064ecdefb88f775a94ce788be7b6edb5dfe2f4c49e03526992",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/r18_records/q500_launch.yml",
+    "previous_sha256": "d1ef3f529770bbbe54c03a67f14fb636a72c124a131acfda7539c872236116f2",
+    "final_sha256": "f52b13db9ef0de7eb9c49e33678e58c97efe0708d59ab8918bdda58823b64da8",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/r18_records/q500_logged_cfg.json.NOTICE.txt",
+    "previous_sha256": null,
+    "final_sha256": "e6afc1ad2dee74a0373727a0a10dde4e7207802903057cd781ad5441f9c030d7",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/r18_records/q600_launch.yml",
+    "previous_sha256": "255b793e6af8fc4a30ba344b463ba2182e328e47e784797cfe2e05d766e81b73",
+    "final_sha256": "c6f78d5873de4a9a55dd570a340e81055e3a025f80ef90d1811a8f9f97fe667f",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/r18_records/q600_logged_cfg.json.NOTICE.txt",
+    "previous_sha256": null,
+    "final_sha256": "2486c29c22f957ea0c7d4861cea1ca7ac33e819269837e16bfbe8bc86c44426e",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/r50_records/exp_r50_query300_36e_clean.yml",
+    "previous_sha256": "ad5e3bc6016ccc2f8456d01a676c9f54b01796c72bfd21d427f17a1bd96fcbc0",
+    "final_sha256": "8bc00410961cc874657be8d2b6d870dc201359a24f7acab4f7abd42a0acc6e29",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/r50_records/exp_r50_query500_36e.yml",
+    "previous_sha256": "7b9fb96585074691f4635c824b1f67526ba9394cd06ac883e02360178f5c0c2e",
+    "final_sha256": "b1e842f288fb177b11d947622f16571c3c18c415bab35c1a04e8fa1dee829db1",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/base/dataloader.yml",
+    "previous_sha256": "0f97555163755e8e007f6ba8778a28d68ab82a971f9bca2f1976febad17b3386",
+    "final_sha256": "11d672b125a0bd35380a8b838fda2db2bc7d5c450d354e004cd9880c8e4172b7",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/base/rt_deim.yml",
+    "previous_sha256": "6783db74c30442fa4a8e2ee32ee8eebffe4d72b7e1cd081abc9df1baa85a14dc",
+    "final_sha256": "615b1220047ac41dcee3b3cbabc2439f34f8d734ad8b7710f6e7b301de0ed109",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/base/rt_optimizer.yml",
+    "previous_sha256": "55f670536621be63a90d8ce00ba136fe9f8d8f3bdb1d9f321167e74676ed21c5",
+    "final_sha256": "f2910865c85da017b61c15af8d79fe2958c9a2873c66d25ff75ddb1554fb95d9",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/base/rtdetrv2_r50vd.yml",
+    "previous_sha256": "859fa195733f374c19b813bf9e5b9f221604c5a2275b8780a7483d6dc7b88456",
+    "final_sha256": "315652595cd7c7fea203302c98703ab7a9758145fbfae39c3465053e3e1d7e09",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/dataset/coco_detection.yml",
+    "previous_sha256": "787f7d204b9eb3f103f14a79e86f9a13414e451f748ba713cf5603f42b4b962c",
+    "final_sha256": "3b850d29dca627bdc28a15ccf8c09d6540599475bfaf3df225a8f77ca25f1143",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/deim_rtdetrv2/rtdetrv2_r18vd_120e_coco.yml",
+    "previous_sha256": "6f9ec1b1f3c296e938b03abe1a2cb166677690a8b622404f9ae29a6e84b437cc",
+    "final_sha256": "d5484a64e3be8d0e28deff8c52d639e6c5003b38676f2bdab27047f7e82899fc",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/deim_rtdetrv2/rtdetrv2_r50vd_6x_coco.yml",
+    "previous_sha256": "462e487f3f374e85a09d30393564a30d340e302ee6d727098ac3c6b6ad59453d",
+    "final_sha256": "8a1865b0ff2fd452b4f7be24b7862bf7b27769a36c8b69b19c7aa13aba239c17",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/deim_sdf/exp_binary_mask_36e.yml",
+    "previous_sha256": "35a47393fa277547d2a0d4e186f1b3d34b870d72023b860ccf7fe89757e6083a",
+    "final_sha256": "54200494a8403ea7800682321f4cd96dd39ef65eb36f97172c08b9c822d864c7",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/deim_sdf/exp_p2_query400_36e.yml",
+    "previous_sha256": "c51d22e63c6d759684a63989530627dc0e06d8c7b892999be1b643e6895cf0ed",
+    "final_sha256": "fa43dfb5f903f212092507e32b21ef853d68cd60e8613995a8228fe4f4389737",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/deim_sdf/exp_p2_query600_36e.yml",
+    "previous_sha256": "255b793e6af8fc4a30ba344b463ba2182e328e47e784797cfe2e05d766e81b73",
+    "final_sha256": "c6f78d5873de4a9a55dd570a340e81055e3a025f80ef90d1811a8f9f97fe667f",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/deim_sdf/exp_query500_36e.yml",
+    "previous_sha256": "d1ef3f529770bbbe54c03a67f14fb636a72c124a131acfda7539c872236116f2",
+    "final_sha256": "f52b13db9ef0de7eb9c49e33678e58c97efe0708d59ab8918bdda58823b64da8",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/deim_sdf/exp_r50_query300_36e_clean.yml",
+    "previous_sha256": "ad5e3bc6016ccc2f8456d01a676c9f54b01796c72bfd21d427f17a1bd96fcbc0",
+    "final_sha256": "8bc00410961cc874657be8d2b6d870dc201359a24f7acab4f7abd42a0acc6e29",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/deim_sdf/exp_r50_query500_36e.yml",
+    "previous_sha256": "7b9fb96585074691f4635c824b1f67526ba9394cd06ac883e02360178f5c0c2e",
+    "final_sha256": "b1e842f288fb177b11d947622f16571c3c18c415bab35c1a04e8fa1dee829db1",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "configs/replay_tree/runtime.yml",
+    "previous_sha256": "40903bca3e12afb15eed7497c1fd0e79e6de91d8ee0f5aec2fd6a20e3e6794c6",
+    "final_sha256": "a8967c9cfbcc366960277d5336ff21e9bff37278763d2ddc3c824128e98efde5",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "docs/DATA_AVAILABILITY_SCOPE_CHECK.md",
+    "previous_sha256": "0212826f5bf33d1d21f8920dad5f37bb0a870fd26687d833ce06e1705cfe63ea",
+    "final_sha256": "ea4c6d1f3c2708fbe80a1d73b47ba6b9cc7eb34dcc0551cafc3b756330d4501f",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "docs/PRIVACY_AND_THIRD_PARTY_AUDIT.md",
+    "previous_sha256": "5c94f3f033e4eed92b30913ca67f0cd25b1ec120327b5d836aa5c5a8f690f4e4",
+    "final_sha256": "13ffd38ba5c7ffcc699f8a36c2e7ee084b26b525b464419c453271e5997624dd",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "GITHUB_RELEASE_INSTRUCTIONS.md",
+    "previous_sha256": null,
+    "final_sha256": "72905d0921ca4fdf16ed4e76ba54056d29175759c1227180f603fb4d5cdb5338",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "LICENSE",
+    "previous_sha256": null,
+    "final_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "LICENSE_DECISION.md",
+    "previous_sha256": null,
+    "final_sha256": "16b917caacc64b0a746b9478f992ffd94ca92c737be8215b639965e626f50d84",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "LICENSE_OR_USAGE.md",
+    "previous_sha256": "f7aad305da6f45f20462311b28a4394ca8edf215f5610ac6bdd2da216b1194d9",
+    "final_sha256": "3a872c9260b59dd90c5075632af47ed322b72f4d4faafdb8d64e9a196048c5ca",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "provenance/det_engine_recovery_diff.patch",
+    "previous_sha256": "9d46f843895a727174d30048c7019baaec4f82130c302d26fbe30c3a9de7e246",
+    "final_sha256": "8fc3009da06a03d48dd666731ff417128a8db9187885c0f71c1562879f4f8677",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "provenance/NOTICE.md",
+    "previous_sha256": "f409e37b2ba06bb98224fa12d3620a426903e220536cd9a82353586141d6451c",
+    "final_sha256": "1f753ebc68cdff574edbc476cc9587d33b6c343de05bdbd9b9d928b7d1197ccd",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "provenance/RELEASE_TRANSFORMATIONS.json",
+    "previous_sha256": "fd5c2065941975a995983855b61305ce3adac81b822697119d6806fabd55464c",
+    "final_sha256": "d07006ab73b1f45427281e8325e591777728acd168731953bf40badbd545b049",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "PUBLIC_ARCHIVE_RELEASE_CHECKLIST.md",
+    "previous_sha256": "b1d101b2c0543a286e9f5c3397e6f7505436dbccfec45ec20cf8b004c5cc44a9",
+    "final_sha256": "2fe4fadd9ed9564145844b79eb0884372d262e78d48abb3a46b9b91234d0acd1",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "README.md",
+    "previous_sha256": "6c1ba752449197a68b58fc5d2e0752c0f9bb8a9c2df071e2770c183074aa2c9a",
+    "final_sha256": "ca8a3b23fd50e54cfefab887a8343adf1c0073a95d076a65141324f75993a32b",
+    "change": "License/attribution/documentation only"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "previous_sha256": null,
+    "final_sha256": "b3201b5f05d3d79dfb8251833d96356c7c3ab585874c5a0349c0100a74b24908",
+    "change": "License/attribution/documentation only"
+  }
+]

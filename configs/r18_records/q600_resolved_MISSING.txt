@@ -1,0 +1,3 @@
+No contemporaneous resolved YAML was archived for Q600.
+Available: complete training-log cfg dump, reproduced without value changes as q600_logged_cfg.json; launch YAML path configs/deim_sdf/exp_p2_query600_36e.yml.
+A launch YAML copy is supplied separately as q600_launch.yml. It is not a resolved YAML and lacks an immutable training-time source/hash proof.

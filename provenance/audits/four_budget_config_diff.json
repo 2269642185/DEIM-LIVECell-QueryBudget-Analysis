@@ -1,0 +1,94 @@
+{
+  "scope": "four historical full training-log launch cfg records (verified Q300/Q500 server logs, Q400/Q600 archived logs)",
+  "full_training_logs": {
+    "Q300": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/audit/server_check_20260924/exp_binary_mask_36e_retrain.log",
+    "Q400": "<PROJECT_ROOT>/research/experiments/training/LIVECell_R18_Q400_S0_36E/provenance/paper_workspace_export/server_training.log",
+    "Q500": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_four_budget_protocol_cache_20260924/audit/server_check_20260924/exp_query500_36e_retrain.log",
+    "Q600": "<PROJECT_ROOT>/research/experiments/training/LIVECell_R18_Q600_S0_36E/exp_p2_query600_36e_run.log"
+  },
+  "root_configs": {
+    "Q300": "<MODEL_PROJECT>/configs/deim_sdf/exp_binary_mask_36e.yml",
+    "Q400": "<PROJECT_ROOT>/research/experiments/config_snapshots/query_curve_20260913/exp_p2_query400_36e.yml",
+    "Q500": "<MODEL_PROJECT>/configs/deim_sdf/exp_query500_36e.yml",
+    "Q600": "<PROJECT_ROOT>/research/experiments/training/LIVECell_R18_Q600_S0_36E/exp_p2_query600_36e.yml"
+  },
+  "differences": [
+    {
+      "path": "output_dir",
+      "classification": "allowed",
+      "values": {
+        "Q300": "./output/exp_binary_mask_36e",
+        "Q400": "./output/exp_p2_query400_36e",
+        "Q500": "./output/exp_query500_36e",
+        "Q600": "./output/exp_p2_query600_36e"
+      }
+    },
+    {
+      "path": "yaml_cfg.PostProcessor.num_top_queries",
+      "classification": "allowed",
+      "values": {
+        "Q300": 300,
+        "Q400": 400,
+        "Q500": 500,
+        "Q600": 600
+      }
+    },
+    {
+      "path": "yaml_cfg.RTDETRTransformerv2.num_queries",
+      "classification": "allowed",
+      "values": {
+        "Q300": 300,
+        "Q400": 400,
+        "Q500": 500,
+        "Q600": 600
+      }
+    },
+    {
+      "path": "yaml_cfg.config",
+      "classification": "allowed",
+      "values": {
+        "Q300": "configs/deim_sdf/exp_binary_mask_36e.yml",
+        "Q400": "configs/deim_sdf/exp_p2_query400_36e.yml",
+        "Q500": "configs/deim_sdf/exp_query500_36e.yml",
+        "Q600": "configs/deim_sdf/exp_p2_query600_36e.yml"
+      }
+    },
+    {
+      "path": "yaml_cfg.output_dir",
+      "classification": "allowed",
+      "values": {
+        "Q300": "./output/exp_binary_mask_36e",
+        "Q400": "./output/exp_p2_query400_36e",
+        "Q500": "./output/exp_query500_36e",
+        "Q600": "./output/exp_p2_query600_36e"
+      }
+    },
+    {
+      "path": "yaml_cfg.train_dataloader.dataset.mask_grid_size",
+      "classification": "unexpected_or_unproven",
+      "values": {
+        "Q300": "<ABSENT>",
+        "Q400": 16,
+        "Q500": 16,
+        "Q600": 16
+      }
+    },
+    {
+      "path": "yaml_cfg.val_dataloader.num_workers",
+      "classification": "unexpected_or_unproven",
+      "values": {
+        "Q300": 0,
+        "Q400": 4,
+        "Q500": 4,
+        "Q600": 4
+      }
+    }
+  ],
+  "annotation_sha256": "eb72a68f5065d9ade1805b496eecdcd14ca275e5f1bc6aae7e07279bddadfdc7",
+  "cache_files": {
+    "r18_300": 570,
+    "r18_400": 570,
+    "r18_500": 570,
+    "r18_600": 570
+  }
+}

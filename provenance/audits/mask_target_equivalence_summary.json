@@ -1,0 +1,22 @@
+{
+  "number_valid_instances": 1018576,
+  "number_equal": 1018576,
+  "number_mismatched": 0,
+  "comparison_method": "Exact float32 equality of every stored grid pixel against current loader dynamic branch for all noncrowd valid-box annotations; no tolerance",
+  "source_annotations": "<MODEL_PROJECT>/datasets/livecell/annotations/livecell_coco_train.json",
+  "source_annotations_sha256_at_audit": "4df70f126ade5858ff4637f2f7c543b89774f50bd581b3e772fea9f586acab36",
+  "audit_script_sha256": "70ebea73f7470633d93a3c887d0b585fc9465129335216bc0900343c7ae618f8",
+  "current_server_source_sha256_at_audit": {
+    "engine/data/dataset/coco_dataset.py": "e4a25b8579996bf7598c270489e8e7feeb4c06ae37f112e18a26b0fe009b6d65",
+    "engine/core/workspace.py": "5529cd6f79ee1db0f6623d10e4d74ad6281ffdbe646b3fef60ef045407a656b9",
+    "engine/data/dataloader.py": "f0981edda4bda91cb8c1ddcddedd3578b23f320fe2fd2d99da78556dd9cdb8bd",
+    "engine/data/transforms/_transforms.py": "c58f6528f01e40b5827a6ed4df5a348c67ab0ef600cdbc4efa83a6d43fb207d2",
+    "engine/deim/deim_criterion.py": "187b434d314c8cfc8ee046d2cba19b42fcb0f870c1fe04b6c9780391acac3af9"
+  },
+  "opencv": "4.9.0",
+  "numpy": "1.26.4",
+  "torch": "2.1.2+cu118",
+  "original_audit_summary": "<PROJECT_ROOT>/research/experiments/audits/LIVECell_R18_P0_prediction_and_target_20260912/training_target_audit/summary.json",
+  "original_audit_summary_sha256": "a0527ddd3d15332a0de317b5212258a282a068b543a171dc6a7d445415e7d2b5",
+  "historical_training_launch_source_and_annotation_hashes": "NOT AVAILABLE"
+}

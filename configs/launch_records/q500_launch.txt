@@ -1,0 +1,6 @@
+ORIGINAL SCRIPT: <MODEL_PROJECT>/_retrain_binary.sh
+ARCHIVED SCRIPT: _retrain_binary.sh
+COMMAND EXTRACTED FROM ORIGINAL SCRIPT:
+python -u train.py -c configs/deim_sdf/exp_query500_36e.yml --use-amp --seed=0
+ORIGINAL LOG: <MODEL_PROJECT>/exp_query500_36e_retrain.log
+The script is shared with the other run in its Q300/Q500 or Q400/Q600 pair.

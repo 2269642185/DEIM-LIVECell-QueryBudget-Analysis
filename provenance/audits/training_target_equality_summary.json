@@ -1,0 +1,40 @@
+{
+  "status": "complete",
+  "runtime_dataset_mask_grid_size_default": 0,
+  "training_annotation": "<MODEL_PROJECT>/datasets/livecell/annotations/livecell_coco_train.json",
+  "training_annotation_sha256": "4df70f126ade5858ff4637f2f7c543b89774f50bd581b3e772fea9f586acab36",
+  "annotation_bytes": 7330111895,
+  "annotation_mtime_ns": 1784604838885697302,
+  "source_sha256": {
+    "engine/data/dataset/coco_dataset.py": "e4a25b8579996bf7598c270489e8e7feeb4c06ae37f112e18a26b0fe009b6d65",
+    "engine/core/workspace.py": "5529cd6f79ee1db0f6623d10e4d74ad6281ffdbe646b3fef60ef045407a656b9",
+    "engine/data/dataloader.py": "f0981edda4bda91cb8c1ddcddedd3578b23f320fe2fd2d99da78556dd9cdb8bd",
+    "engine/data/transforms/_transforms.py": "c58f6528f01e40b5827a6ed4df5a348c67ab0ef600cdbc4efa83a6d43fb207d2",
+    "engine/deim/deim_criterion.py": "187b434d314c8cfc8ee046d2cba19b42fcb0f870c1fe04b6c9780391acac3af9"
+  },
+  "precompute_script_sha256": "027cbb39dcc8487cc8530885c98123c784c833cf0cf597721bffd35409683f36",
+  "script_sha256": "70ebea73f7470633d93a3c887d0b585fc9465129335216bc0900343c7ae618f8",
+  "opencv": "4.9.0",
+  "numpy": "1.26.4",
+  "torch": "2.1.2+cu118",
+  "images": 3253,
+  "image_dimension_mismatches": 0,
+  "counts": {
+    "annotations": 1018576,
+    "with_mask_grid_all": 1018576,
+    "training_instances": 1018576,
+    "compared": 1018576,
+    "identical": 1018576
+  },
+  "stored_grid_lengths": {
+    "256": 1018576
+  },
+  "segmentation_polygon_counts": {
+    "1": 1018576
+  },
+  "actual_converter_checks": 64,
+  "comparison": "Exact float32 equality of every stored grid pixel against current loader dynamic branch for all noncrowd valid-box annotations; no tolerance",
+  "elapsed_seconds": 254.52851629257202,
+  "examples": [],
+  "historical_limitation": "Current server training file and P0 source snapshot checked; historical training-time file identity cannot be proven without archived hashes/snapshots."
+}

@@ -1,0 +1,1 @@
+terminal_2x2.csv is a direct transcription of the frozen main.tex terminal comparison, with its published rounding. JSON files retain exact tabular blocks for all manuscript/Supplementary tables. No new statistics or analyses were computed.

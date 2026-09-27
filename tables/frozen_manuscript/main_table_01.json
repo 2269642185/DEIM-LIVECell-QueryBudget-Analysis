@@ -1,0 +1,6 @@
+{
+  "source": "main.tex",
+  "table_order": 1,
+  "content_type": "exact LaTeX tabular transcription; no recalculation",
+  "tabular": "\\begin{tabular}{@{}>{\\raggedright\\arraybackslash}p{0.18\\textwidth}>{\\raggedright\\arraybackslash}p{0.24\\textwidth}>{\\raggedright\\arraybackslash}p{0.22\\textwidth}>{\\raggedright\\arraybackslash}p{0.27\\textwidth}@{}}\n\\toprule\nEvidence cohort & Analytical role & Evidence status & Main limitation\\\\\n\\midrule\nR18 Q300 vs. Q500 & Detailed prediction-level comparison & Primary & One training seed\\\\\nR18 threshold, IoU, image bootstrap & Operating-point and image-sampling robustness & Secondary robustness & Saved-cache analysis; bootstrap excludes training-seed variability\\\\\nR18 Q300--Q600 (four budgets) & Query-budget response characterization & Complementary; compatibility-verified & Historical training provenance incomplete\\\\\nR50 Q300 vs. Q500 & Directional backbone corroboration & Corroborating & Q300 uses recovery-fixed2\\\\\nMask-head screens & Motivation for query-budget audit & Exploratory & No controlled architectural comparison\\\\\n\\bottomrule\n\\end{tabular}"
+}

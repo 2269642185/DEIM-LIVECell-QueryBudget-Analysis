@@ -1,0 +1,6 @@
+{
+  "source": "main.tex",
+  "table_order": 7,
+  "content_type": "exact LaTeX tabular transcription; no recalculation",
+  "tabular": "\\begin{tabular}{rrrrrrr}\n\\toprule\nQueries & Params (M) & FLOPs (G) & Model (ms) & Pipeline (ms) & FPS & Peak (MiB)\\\\\n\\midrule\n300 & 21.275 & 61.125 & 10.882 & 133.283 & 7.503 & 335.8\\\\\n400 & 21.275 & 61.921 & 10.686 & 165.280 & 6.050 & 414.7\\\\\n500 & 21.275 & 62.718 & 10.936 & 210.437 & 4.752 & 494.0\\\\\n600 & 21.275 & 63.516 & 10.948 & 242.726 & 4.120 & 572.0\\\\\n\\bottomrule\n\\end{tabular}"
+}

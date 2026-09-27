@@ -1,0 +1,17 @@
+Q,mask_iou,target_precision,achieved_precision,recall,score,method
+300,0.5,0.8,0.8000144583103657,0.48748416937393313,0.43613460659980774,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+300,0.5,0.9,0.9000115433452615,0.4293155663234403,0.6754703521728516,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+300,0.75,0.8,0.8000040807165738,0.2158967017234734,0.814426064491272,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+300,0.75,0.9,0.9000042443020245,0.11676119156434117,0.8652535676956177,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+400,0.5,0.8,0.8000016138663396,0.5459005561367766,0.49723294377326965,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+400,0.5,0.9,0.9000129349372655,0.45975441880953694,0.6912283301353455,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+400,0.75,0.8,0.8000158575987631,0.2222344584549309,0.8221927285194397,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+400,0.75,0.9,0.9001120619396903,0.09730191068773746,0.878219723701477,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+500,0.5,0.8,0.8000392805614098,0.583172732779032,0.5361127257347107,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+500,0.5,0.9,0.9,0.48079951544518473,0.7015136480331421,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+500,0.75,0.8,0.8000038710176905,0.22759209294642366,0.8228470683097839,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+500,0.75,0.9,0.9,0.1042178294146798,0.8779416084289551,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+600,0.5,0.8,0.8000014533721869,0.6061835801993283,0.5396838784217834,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+600,0.5,0.9,0.9000010137772326,0.4888332140300644,0.7003426551818848,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+600,0.75,0.8,0.8000039784368721,0.22144705688012775,0.8257072567939758,maximum micro recall at attainable complete-score-tie operating point with precision >= target
+600,0.75,0.9,0.9000154297176362,0.09635482627608612,0.8790854811668396,maximum micro recall at attainable complete-score-tie operating point with precision >= target

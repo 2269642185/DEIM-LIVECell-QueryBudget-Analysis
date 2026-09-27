@@ -1,0 +1,6 @@
+{
+  "source": "supplementary.tex",
+  "table_order": 6,
+  "content_type": "exact LaTeX tabular transcription; no recalculation",
+  "tabular": "\\begin{tabular}{rrrrr}\n\\toprule\nQueries & Images $N_{GT}>Q$ & Image fraction & Arithmetic gap & Gap/GT\\\\\n\\midrule\n300 & 208 & 36.49\\% & 68,271 & 37.59\\%\\\\\n400 & 148 & 25.96\\% & 50,728 & 27.93\\%\\\\\n500 & 105 & 18.42\\% & 38,376 & 21.13\\%\\\\\n600 & 81 & 14.21\\% & 29,041 & 15.99\\%\\\\\n\\bottomrule\n\\end{tabular}"
+}
