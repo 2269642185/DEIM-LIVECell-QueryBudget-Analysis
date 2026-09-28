@@ -12,4 +12,4 @@ Alternative: `LIVECell-QueryBudget-Audit`.
 
 Official GitHub release instructions: https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository
 
-Nothing was created or uploaded by this preparation step. Reproduction limits remain: selected derived tables/figures YES; full prediction audit, full inference and full historical training from the public archive alone NO.
+The repository has been created and published. Use these steps to verify future revisions. Reproduction limits remain: selected derived tables/figures YES; full prediction audit, full inference and full historical training from the public archive alone NO.

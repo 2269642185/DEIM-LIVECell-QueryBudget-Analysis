@@ -11,4 +11,4 @@ Prediction caches included: NO.
 Third-party license conflicts: NONE identified among bundled materials in this audit.
 
 Author-owned code/configuration/documentation is licensed Apache-2.0 by explicit author instruction. LIVECell terms and external dependencies' licenses are not replaced. JSON configuration bytes, parsed YAML values, Python algorithms, derived tables and figures are unchanged in this license pass. Existing Level A test results therefore remain applicable.
-No public repository, release, DOI or upload was created.
+The public repository and versioned release are at https://github.com/2269642185/DEIM-LIVECell-QueryBudget-Analysis and https://github.com/2269642185/DEIM-LIVECell-QueryBudget-Analysis/releases/tag/v1.0.1-submission. No DOI is assigned; this administrative publication update does not change the license audit.

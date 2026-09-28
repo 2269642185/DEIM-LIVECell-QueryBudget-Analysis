@@ -6,7 +6,7 @@ Authors: Baohua Wang, Shengbin Yu, Yunlong Ma and Jian Zhang.
 
 This archive accompanies an empirical prediction-level analysis of query-budget effects in full-image LIVECell instance segmentation.
 It supports reproduction of selected reported derived analyses and documents the provenance available for the experimental cohorts. This is an empirical study archive, not a new model release or a self-contained model repository.
-GITHUB-READY LOCAL RELEASE: Apache-2.0 has been selected for code/configuration and author-owned documentation. No public upload or identifier exists yet. See GITHUB_RELEASE_INSTRUCTIONS.md.
+PUBLIC RELEASE STATUS: This repository is the public reproducibility archive accompanying the manuscript. The versioned submission release is available through the [GitHub Releases page](https://github.com/2269642185/DEIM-LIVECell-QueryBudget-Analysis/releases/tag/v1.0.1-submission). Apache-2.0 applies to code/configuration and author-owned documentation as described below.
 
 ## Evidence hierarchy
 
@@ -66,7 +66,7 @@ Recorded engineering environment: RTX 4090 D, PyTorch 2.1.2, CUDA 11.8, Python 3
 ## Study archive versus public release
 
 The manuscript Methods 3.6 and Supplementary S3 refer to a larger author-controlled study archive, including caches and training artifacts. This public-release subset deliberately omits those payloads. Their presence in the study archive does not imply public availability. Per-image derived tables and available artifact hashes are included; per-ground-truth intermediates are not.
-No promise of future checkpoint/cache release is made. The manuscript Data Availability statement remains unchanged until a real public URL/DOI is obtained.
+No promise of future checkpoint/cache release is made. The public repository and [versioned submission release](https://github.com/2269642185/DEIM-LIVECell-QueryBudget-Analysis/releases/tag/v1.0.1-submission) provide the archive location referenced by the manuscript. The GitHub URLs are not DOIs.
 
 ## Integrity and provenance
 
